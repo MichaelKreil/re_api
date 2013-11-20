@@ -1,0 +1,19 @@
+{
+	"items":[
+		{
+			"name":"name",
+			"description":"Name der/des Speakerin/Speakers",
+			"type":"string"
+		},
+		{
+			"name":"id",
+			"description":"Eindeutige ID der/des Speakerin/Speakers.",
+			"type":"string"
+		},
+		{
+			"name":"url",
+			"description":"Url der/des Speakerin/Speakers auf der re:publica-Seite.",
+			"type":"string"
+		}
+	]
+}

@@ -1,0 +1,106 @@
+[
+	{
+		"id": "5115",
+		"start": "10:15",
+		"day": 1,
+		"end": "10:15",
+		"lastmodified": "2013-11-19T22:28:17.368Z",
+		"url": "http://irgendwo/dings",
+		"duration": 45,
+		"abstract": "",
+		"location": "stage 1",
+		"title": "Eröffnung",
+		"track": "re:publica",
+		"language": "German",
+		"experiencelevel": "Beginner",
+		"type": "Vortrag",
+		"speakers": [
+			"Andreas Gebhard",
+			"Markus Beckedahl",
+			"Tanja Haeusler",
+			"Johnny Haeusler"
+		],
+		"date": "2013-05-06"
+	},
+	{
+		"id": "5044",
+		"start": "11:00",
+		"day": 1,
+		"end": "11:00",
+		"lastmodified": "2013-11-19T22:28:17.368Z",
+		"url": "http://irgendwo/dings",
+		"duration": 60,
+		"abstract": "",
+		"location": "stage 1",
+		"title": "Innovating Africa",
+		"track": "politics & society",
+		"language": "English",
+		"experiencelevel": "Beginner",
+		"type": "Vortrag",
+		"speakers": [
+			"Erik Hersman"
+		],
+		"date": "2013-05-06"
+	},
+	{
+		"id": "5369",
+		"start": "12:00",
+		"day": 1,
+		"end": "12:00",
+		"lastmodified": "2013-11-19T22:28:17.368Z",
+		"url": "http://irgendwo/dings",
+		"duration": 15,
+		"abstract": "",
+		"location": "stage 1",
+		"title": "brand eins",
+		"track": "research & education",
+		"language": "German",
+		"experiencelevel": "Beginner",
+		"type": "Diskussion",
+		"speakers": [
+			"Anja Ebersbach"
+		],
+		"date": "2013-05-06"
+	},
+	{
+		"id": "5037",
+		"start": "16:00",
+		"day": 1,
+		"end": "16:00",
+		"lastmodified": "2013-11-19T22:28:17.368Z",
+		"url": "http://irgendwo/dings",
+		"duration": 30,
+		"abstract": "",
+		"location": "stage 1",
+		"title": "Building a web we can trust",
+		"track": "science & technology",
+		"language": "English",
+		"experiencelevel": "Fortgeschrittene",
+		"type": "Vortrag",
+		"speakers": [
+			"Mitchell Baker"
+		],
+		"date": "2013-05-06"
+	},
+	{
+		"id": "5869",
+		"start": "16:30",
+		"day": 1,
+		"end": "16:30",
+		"lastmodified": "2013-11-19T22:28:17.368Z",
+		"url": "http://irgendwo/dings",
+		"duration": 30,
+		"abstract": "",
+		"location": "stage 1",
+		"title": "Speech at scale",
+		"track": "politics & society",
+		"language": "English",
+		"experiencelevel": "Fortgeschrittene",
+		"type": "Diskussion",
+		"speakers": [
+			"Richard Allan",
+			"Ulf Buermeyer"
+		],
+		"date": "2013-05-06"
+	}
+]
