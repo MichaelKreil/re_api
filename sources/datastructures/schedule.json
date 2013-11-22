@@ -1,6 +1,11 @@
 {
 	"items":[
 		{
+			"key":"lastmodified",
+			"description":"Wann wurde der Eintrag das letzte Mal geändert?",
+			"type":"datetime"
+		},
+		{
 			"key":"id",
 			"description":"Eindeutige ID der Session",
 			"type":"integer"
