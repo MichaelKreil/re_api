@@ -1,0 +1,248 @@
+{
+	"description":"das große Wurzel-Objekt",
+	"type":"object",
+	"substructure": [
+		{
+			"key":"schedule",
+			"description":"Auflistung der Sessions",
+			"type":"array",
+			"substructure": {
+				"type":"object",
+				"description":"Jede Session ist ein Objekt.",
+				"substructure":[
+					{
+						"key":"lastmodified",
+						"description":"Wann wurde der Eintrag das letzte Mal geändert?",
+						"type":"datetime"
+					},
+					{
+						"key":"id",
+						"description":"Eindeutige ID der Session",
+						"type":"integer"
+					},
+					{
+						"key":"title",
+						"description":"Titel der Session",
+						"type":"string"
+					},
+					{
+						"key":"abstract",
+						"description":"Beschreibung der Session",
+						"type":"string"
+					},
+					{
+						"key":"speakers",
+						"description":"Auflistung der Speaker",
+						"type":"array",
+						"substructure":{
+							"description":"Jeder Speaker wird als Objekt gespeichert.",
+							"type":"object",
+							"substructure":[
+								{
+									"key":"name",
+									"description":"Name der/des Speakerin/Speakers",
+									"type":"string"
+								},
+								{
+									"key":"id",
+									"description":"Eindeutige ID der/des Speakerin/Speakers",
+									"type":"integer"
+								},
+								{
+									"key":"url",
+									"description":"URL der/des Speakerin/Speakers auf der re:publica-Seite",
+									"type":"url",
+									"optional":true
+								}
+							]
+						}
+					},
+					{
+						"key":"location",
+						"description":"Ort der Session, z.B. welche Stage",
+						"type":"object",
+						"substructure":[
+							{
+								"key":"name",
+								"description":"Titel der Stage",
+								"type":"string"
+							}
+						]
+					},
+					{
+						"key":"day",
+						"description":"Tag der Session",
+						"type":"set",
+						"values":[1,2,3]
+					},
+					{
+						"key":"date",
+						"description":"Tag der Session",
+						"type":"datetime"
+					},
+					{
+						"key":"start",
+						"description":"Startzeit der Session",
+						"type":"datetime"
+					},
+					{
+						"key":"end",
+						"description":"Ende der Session",
+						"type":"datetime"
+					},
+					{
+						"key":"duration",
+						"description":"Dauer der Session in Minuten",
+						"type":"integer"
+					},
+					{
+						"key":"language",
+						"description":"Sprache der Session",
+						"type":"set",
+						"values":[
+							"English", "German"
+						]
+					},
+					{
+						"key":"experiencelevel",
+						"description":"Schwierigskeitslevel",
+						"type":"set",
+						"values":[
+							"Beginner", "Fortgeschrittene", "Experten"
+						]
+					},
+					{
+						"key":"track",
+						"description":"Track",
+						"type":"set",
+						"values":[
+							"re:publica", "politics & society", "research & education", "science & technology", "business & innovation", "culture", "media", "re:campaign"
+						]
+					},
+					{
+						"key":"type",
+						"description":"Art der Veranstaltung",
+						"type":"set",
+						"values":[
+							"Vortrag", "Diskussion", "Aktion", "Workshop"
+						]
+					},
+					{
+						"key":"url",
+						"description":"URL der Session auf der re:publica-Seite",
+						"type":"url",
+						"optional":true
+					},
+					{
+						"key":"slides",
+						"description":"Folien zum Vortrag",
+						"type":"object",
+						"optional":true,
+						"substructure":[
+							{
+								"key":"pdflink",
+								"description":"URL zu einem PDF der Vortragsfolien",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"pptlink",
+								"description":"URL zu einer Powerpoint-Datei der Vortragsfolien",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"keylink",
+								"description":"URL zu einer Keynote-Datei der Vortragsfolien",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"slideshare",
+								"description":"URL zu einer SlideShare-Präsentation der Vortragsfolien",
+								"type":"url",
+								"optional":true
+							}
+						]
+					},
+					{
+						"key":"recordings",
+						"description":"Aufzeichnung der Veranstaltung",
+						"type":"object",
+						"optional":true,
+						"substructure":[
+							{
+								"key":"youtube",
+								"description":"URL zum YouTube-Video",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"vimeo",
+								"description":"URL zum Vimeo-Video",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"oggtheora",
+								"description":"URL zu einer Ogg-Theora-Video-Datei",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"mpeg4video",
+								"description":"URL zu einer MPEG4-Video-Datei",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"oggvorbis",
+								"description":"URL zu einer Ogg-Vorbis-Audio-Datei",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"mpeg4audio",
+								"description":"URL zu einer MPEG4-Audio-Datei",
+								"type":"url",
+								"optional":true
+							},
+							{
+								"key":"mp3audio",
+								"description":"URL zu einer MP3-Audio-Datei",
+								"type":"url",
+								"optional":true
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"key":"speakers",
+			"description":"Auflistung aller Speaker",
+			"type":"array",
+			"substructure":{
+				"description":"Definition eines Speakers",
+				"type":"object",
+				"substructure":[
+					{
+						"key":"name",
+						"description":"Name der/des Speakerin/Speakers",
+						"type":"string"
+					},
+					{
+						"key":"id",
+						"description":"Eindeutige ID der/des Speakerin/Speakers.",
+						"type":"string"
+					},
+					{
+						"key":"url",
+						"description":"Url der/des Speakerin/Speakers auf der re:publica-Seite.",
+						"type":"string"
+					}
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,256 @@
+<html>
+	<head>
+		<style type="text/css">
+			body, h3 {
+				font-family: Helvetica, Verdana;
+				font-size: 14px;
+				color: #000;
+				line-height: 140%;
+			}
+			h3, p {
+				margin: 0px;
+			}
+			div {
+			}
+			.syntax {
+				font-family: monospace;
+				font-weight: normal;
+				color: #6A6;
+			}
+			.highlight {
+				font-weight: bold;
+				color: #000;
+			}
+			.desc {
+				color: #008;
+				opacity: 0.5;
+				margin-left: 20px;
+			}
+			.desc:hover {
+				opacity: 1.0;
+			}
+			/*
+			span.desc {
+				position: absolute;
+				left: 300px;
+			}
+			div.desc {
+				margin-left: 300px;
+			}*/
+			.desc {
+			}
+			.note {
+				font-size: 13px;
+			}
+			.indent {
+				margin-left: 20px;
+				position: relative;
+			}
+			/*
+			.fields {
+			}
+			.fields > li {
+				margin-bottom: 20px;
+			}
+			.fields .fields {
+				margin: 10px 0 10px 40px;
+			}
+			.note {
+				color: #888;
+			}
+			.values {
+				list-style-type: disc;
+			}
+			.values > li {
+				margin: 0;
+			}
+			.key {
+			}
+			.optional {
+				font-style: italic;
+				font-weight: normal;
+			}
+			.example_type {
+				position: relative;
+			}
+			.example_type:hover .example_list {
+				display: block;
+			}
+			.example_type_name {
+				text-decoration: underline;
+			}
+			.example_list {
+				background: #eee;
+				border: 1px solid #aaa;
+				padding: 10px;
+				max-width: 500px;
+				overflow: hidden;
+
+				display: none;
+				position: absolute;
+				z-index: 1000;
+			}
+			.example_list code {
+				display: block;
+				white-space: pre;
+			}*/
+		</style>
+	</head>
+	<body>
+		<div class="syntax">
+		<span class="highlight">{</span> <span class="desc">// das große Wurzel-Objekt</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">schedule:</span> 
+<span class="highlight">[</span> <span class="desc">// Auflistung der Sessions</span>
+<div class="indent">
+<span class="highlight">{</span> <span class="desc">// Jede Session ist ein Objekt.</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">lastmodified:</span> 
+DateTime, <span class="desc">// Wann wurde der Eintrag das letzte Mal geändert?</span>
+</div>
+<div class="subelement"><span class="highlight">id:</span> 
+Integer, <span class="desc">// Eindeutige ID der Session</span>
+</div>
+<div class="subelement"><span class="highlight">title:</span> 
+"String", <span class="desc">// Titel der Session</span>
+</div>
+<div class="subelement"><span class="highlight">abstract:</span> 
+"String", <span class="desc">// Beschreibung der Session</span>
+</div>
+<div class="subelement"><span class="highlight">speakers:</span> 
+<span class="highlight">[</span> <span class="desc">// Auflistung der Speaker</span>
+<div class="indent">
+<span class="highlight">{</span> <span class="desc">// Jeder Speaker wird als Objekt gespeichert.</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">name:</span> 
+"String", <span class="desc">// Name der/des Speakerin/Speakers</span>
+</div>
+<div class="subelement"><span class="highlight">id:</span> 
+Integer, <span class="desc">// Eindeutige ID der/des Speakerin/Speakers</span>
+</div>
+<div class="subelement"><span class="highlight">url:</span> 
+"URL" <span class="desc">//  (optional) URL der/des Speakerin/Speakers auf der re:publica-Seite</span>
+</div>
+</div>
+<span class="highlight">}</span>
+</div>
+<span class="highlight">],</span>
+</div>
+<div class="subelement"><span class="highlight">location:</span> 
+<span class="highlight">{</span> <span class="desc">// Ort der Session, z.B. welche Stage</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">name:</span> 
+"String" <span class="desc">// Titel der Stage</span>
+</div>
+</div>
+<span class="highlight">},</span>
+</div>
+<div class="subelement"><span class="highlight">day:</span> 
+Wert einer Liste, <span class="desc">// Tag der Session</span>
+<div class="desc">// mögliche Werte sind: [1, 2, 3]</div>
+</div>
+<div class="subelement"><span class="highlight">date:</span> 
+DateTime, <span class="desc">// Tag der Session</span>
+</div>
+<div class="subelement"><span class="highlight">start:</span> 
+DateTime, <span class="desc">// Startzeit der Session</span>
+</div>
+<div class="subelement"><span class="highlight">end:</span> 
+DateTime, <span class="desc">// Ende der Session</span>
+</div>
+<div class="subelement"><span class="highlight">duration:</span> 
+Integer, <span class="desc">// Dauer der Session in Minuten</span>
+</div>
+<div class="subelement"><span class="highlight">language:</span> 
+Wert einer Liste, <span class="desc">// Sprache der Session</span>
+<div class="desc">// mögliche Werte sind: ["English", "German"]</div>
+</div>
+<div class="subelement"><span class="highlight">experiencelevel:</span> 
+Wert einer Liste, <span class="desc">// Schwierigskeitslevel</span>
+<div class="desc">// mögliche Werte sind: ["Beginner", "Fortgeschrittene", "Experten"]</div>
+</div>
+<div class="subelement"><span class="highlight">track:</span> 
+Wert einer Liste, <span class="desc">// Track</span>
+<div class="desc">// mögliche Werte sind: ["re:publica", "politics & society", <br>// "research & education", "science & technology", "business & innovation", <br>// "culture", "media", "re:campaign"]</div>
+</div>
+<div class="subelement"><span class="highlight">type:</span> 
+Wert einer Liste, <span class="desc">// Art der Veranstaltung</span>
+<div class="desc">// mögliche Werte sind: ["Vortrag", "Diskussion", "Aktion", "Workshop"]</div>
+</div>
+<div class="subelement"><span class="highlight">url:</span> 
+"URL", <span class="desc">//  (optional) URL der Session auf der re:publica-Seite</span>
+</div>
+<div class="subelement"><span class="highlight">slides:</span> 
+<span class="highlight">{</span> <span class="desc">//  (optional) Folien zum Vortrag</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">pdflink:</span> 
+"URL", <span class="desc">//  (optional) URL zu einem PDF der Vortragsfolien</span>
+</div>
+<div class="subelement"><span class="highlight">pptlink:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer Powerpoint-Datei der Vortragsfolien</span>
+</div>
+<div class="subelement"><span class="highlight">keylink:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer Keynote-Datei der Vortragsfolien</span>
+</div>
+<div class="subelement"><span class="highlight">slideshare:</span> 
+"URL" <span class="desc">//  (optional) URL zu einer SlideShare-Präsentation der Vortragsfolien</span>
+</div>
+</div>
+<span class="highlight">},</span>
+</div>
+<div class="subelement"><span class="highlight">recordings:</span> 
+<span class="highlight">{</span> <span class="desc">//  (optional) Aufzeichnung der Veranstaltung</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">youtube:</span> 
+"URL", <span class="desc">//  (optional) URL zum YouTube-Video</span>
+</div>
+<div class="subelement"><span class="highlight">vimeo:</span> 
+"URL", <span class="desc">//  (optional) URL zum Vimeo-Video</span>
+</div>
+<div class="subelement"><span class="highlight">oggtheora:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer Ogg-Theora-Video-Datei</span>
+</div>
+<div class="subelement"><span class="highlight">mpeg4video:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer MPEG4-Video-Datei</span>
+</div>
+<div class="subelement"><span class="highlight">oggvorbis:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer Ogg-Vorbis-Audio-Datei</span>
+</div>
+<div class="subelement"><span class="highlight">mpeg4audio:</span> 
+"URL", <span class="desc">//  (optional) URL zu einer MPEG4-Audio-Datei</span>
+</div>
+<div class="subelement"><span class="highlight">mp3audio:</span> 
+"URL" <span class="desc">//  (optional) URL zu einer MP3-Audio-Datei</span>
+</div>
+</div>
+<span class="highlight">}</span>
+</div>
+</div>
+<span class="highlight">}</span>
+</div>
+<span class="highlight">],</span>
+</div>
+<div class="subelement"><span class="highlight">speakers:</span> 
+<span class="highlight">[</span> <span class="desc">// Auflistung aller Speaker</span>
+<div class="indent">
+<span class="highlight">{</span> <span class="desc">// Definition eines Speakers</span>
+<div class="indent">
+<div class="subelement"><span class="highlight">name:</span> 
+"String", <span class="desc">// Name der/des Speakerin/Speakers</span>
+</div>
+<div class="subelement"><span class="highlight">id:</span> 
+"String", <span class="desc">// Eindeutige ID der/des Speakerin/Speakers.</span>
+</div>
+<div class="subelement"><span class="highlight">url:</span> 
+"String" <span class="desc">// Url der/des Speakerin/Speakers auf der re:publica-Seite.</span>
+</div>
+</div>
+<span class="highlight">}</span>
+</div>
+<span class="highlight">]</span>
+</div>
+</div>
+<span class="highlight">}</span>
+		</div>
+	</body>
+</html>

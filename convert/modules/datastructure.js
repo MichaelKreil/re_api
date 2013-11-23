@@ -5,10 +5,8 @@ exports.load = function (filename) {
 
 	me.structure = JSON.parse(fs.readFileSync(filename, 'utf8'));
 
-	me.check = function (items) {
-		items.forEach(function (item) {
-			validate(item, me.structure.items, item.title);
-		});
+	me.check = function (obj) {
+		validate(obj, me.structure, 'root');
 	};
 
 	me.generateDocu = function (filename, template) {
@@ -21,137 +19,107 @@ exports.load = function (filename) {
 	return me;
 }
 
-function validate(obj, structure, debug) {
-	if (typeof obj !== 'object') {
-		console.error('"'+obj+'" von "'+debug+'" ist kein Objekt.');
+function validate(object, structure, debug) {
+	if (typeof structure !== 'object') {
+		console.error('structure von "'+debug+'" ist kein Objekt.');
 		return;
 	}
 
-	var attributes = {};
-	structure.forEach(function (attribute) {
-		attributes[attribute.key] = attribute;
-	})
+	if (structure.optional && (object === undefined)) return;
 
-	Object.keys(obj).forEach(function (key) {
-		if (attributes[key] === undefined) {
-			console.error('Der Schlüssel "'+key+'" ist unbekannt.')
-		}
-	})
-
-	structure.forEach(function (item) {
-		var key = item.key;
-		if (obj[key] === undefined) {
-			if (!item.optional) {
-				console.error('Der Schlüssel "'+key+'" ist nicht definiert.');
+	switch (structure.type) {
+		case 'array':
+			if (structure.substructure === undefined) {
+				console.error('Für array fehlt die Definition substructure. ('+debug+')');
+				return;
 			}
-		} else {
-			switch (item.type) {
-				case 'arrayofobjects':
-					if (!(obj[key] instanceof Array)) {
-						console.error('Feld "'+key+'" muss ein Array sein.');
-						return;
-					}
-					obj[key].forEach(function (element) {
-						validate(element, item.items, key);
-					})
-				break;
-
-				case 'datetime': if (!(obj[key] instanceof Date)) console.error('Feld "'+key+'" muss ein DateTime sein.'); break;
-				
-				case 'integer': if ((typeof obj[key] != 'number') || (obj[key] != Math.floor(obj[key]))) console.error('Feld "'+key+'" muss ein Integer sein, ist aber "'+obj[key]+'"'); break;
-				
-				case 'object': validate(obj[key], item.items, key); break;
-
-				case 'set':
-					var found = false;
-					item.values.forEach(function (value) {
-						if (value == obj[key]) found = true;
-					})
-					if (!found) console.error('Feld "'+key+'" hat den unbekannten Wert "'+obj[key]+'".');
-				break;
-				
-				case 'string': if (typeof obj[key] != 'string') console.error('Feld "'+key+'" muss ein String sein.'); break;
-				
-				case 'url': if ((typeof obj[key] != 'string') || (!/^http:\/\/[a-z\/\.]*$/.test(obj[key]))) console.error('Feld "'+key+'" mit dem Wert "'+obj[key]+'" muss eine valide URL sein.'); break;
-				
-				default: console.error('Unbekannter Typ "'+item.type+'"');
+			if (typeof structure.substructure != 'object') {
+				console.error('Für array muss die Definition substructure ein Object sein. ('+debug+')');
+				return;
 			}
-		}
-	})
-}
-
-function getDocuHTML(structure) {
-	var html = structure.items.map(function (item) {
-		var html = '';
-		html += '<h3 class="key">'+item.key;
-		if (item.optional) html += '<span class="optional"> (optional)</span>';
-		html += '</h3>';
-
-		html += '<p class="desc">'+item.description+'</p>';
-
-		if (item.examples) {
-			var examples = [];
-			Object.keys(item.examples).forEach(function (key) {
-				var list = item.examples[key];
-				var codes = ['<code><b>'+item.header[key]+'</b></code>'];
-				var known = {'':true};
-				for (var i = 0; i < list.length; i++) {
-					if (!known[list[i]]) {
-						codes.push('<code>'+list[i]+'</code>');
-						known[list[i]] = true;
-						if (codes.length > 5) break;
-					}
+			if (!(object instanceof Array)) {
+				console.error('object mussen ein Array sein. ('+debug+')');
+				return;
+			}
+			object.forEach(function (element, index) {
+				validate (element, structure.substructure, debug+'['+index+']');
+			});
+		break;
+		case 'object':
+			if (structure.substructure === undefined) {
+				console.error('Für object fehlt die Definition substructure. ('+debug+')');
+				return;
+			}
+			if (!(structure.substructure instanceof Array)) {
+				console.error('Für object muss die Definition substructure ein Array sein. ('+debug+')');
+				return;
+			}
+			if (typeof object != 'object') {
+				console.error('object muss ein Object sein. ('+debug+')');
+				return;
+			}
+			var keys = {};
+			structure.substructure.forEach(function (substructure) {
+				var key = substructure.key;
+				keys[key] = true;
+				if ((!substructure.optional) && (object[key] == undefined)) {
+					console.error('Es fehlt der Key "'+key+'". ('+debug+')');
+					return;
 				}
-				if (codes.length > 1) {
-					examples.push('<span class="example_type"><span class="example_type_name">'+key+'</span><span class="example_list">'+codes.join('')+'</span></span>');
+				validate(object[key], substructure, debug+'.'+key);
+			});
+			Object.keys(object).forEach(function (key) {
+				if (keys[key] === undefined) {
+					console.error('Der Key "'+key+'" ist zu viel. ('+debug+')');
+					return;
 				}
 			});
-			if (examples.length > 0) {
-				html += '<p class="examples">Beispiele: '+examples.join(' ')+'</p>';
+		break;
+
+		case 'datetime':
+			if (!(object instanceof Date)) {
+				console.error('Wert muss ein DateTime sein. ('+debug+')');
+				return
 			}
-		}
-		
+		break;
 
-		switch (item.type) {
-				case 'arrayofobjects':
-					var subhtml = getDocuHTML(item);
-					html += '<p class="type">Datentyp: Array of Objects<br>Die einzelnen Objekte sind folgendermaßen definiert:'+subhtml+'</p>';
-				break;
-
-				case 'datetime': html += '<p class="type">Datentyp: DateTime</p>'; break;
-				
-				case 'integer': html += '<p class="type">Datentyp: Integer</p>'; break;
-				
-				case 'object':
-					var subhtml = getDocuHTML(item);
-					html += '<p class="type">Datentyp: Object<br>Das Objekt ist folgendermaßen definiert:'+subhtml+'</p>';
-				break;
-
-				case 'set':
-					var values = [];
-					item.values.forEach(function (value) {
-						switch (typeof value) {
-							case 'string': value = '"'+value+'" <span class="note">(String)</span>'; break;
-							case 'number': value = value+' <span class="note">(Zahl)</span>'; break;
-							default: console.error('Set-Typ unbekannt');
-						}
-						values.push('<li>'+value+'</li>');
-					});
-					html += '<p class="type">Datentyp: Set<br>Mit den möglichen Werten:<ul class="values">'+values.join('\n')+'</ul></p>';
-				break;
-				
-				case 'string': html += '<p class="type">Datentyp: String</p>'; break;
-				
-				case 'url': html += '<p class="type">Datentyp: String (valide URL)</p>'; break; break;
-				
-				default: console.error('Unbekannter Typ "'+item.type+'"');
+		case 'integer':
+			if (typeof object != 'number') {
+				console.error('Wert muss ein Integer sein. ('+debug+')');
+				return
 			}
+			if (object != Math.floor(object)) {
+				console.error('Wert muss ein Integer und kein Float sein. ('+debug+')');
+				return
+			}
+		break;
 
+		case 'string':
+			if (typeof object != 'string') {
+				console.error('Wert muss ein String sein. ('+debug+')');
+				return
+			}
+		break;
 
-		
-		return '<li>'+html+'</li>';
-	});
-	return '<ul class="fields">\n'+html.join('\n')+'\n</ul>';
+		case 'url':
+			if (typeof object != 'string') {
+				console.error('Wert muss ein String (URL) sein. ('+debug+')');
+				return
+			}
+			if (!/^http:\/\/[a-z\/\.]*$/.test(object)) {
+				console.error('Wert muss eine korrekt formatierte URL sein. ('+debug+')');
+				return
+			}
+		break;
+
+		case 'set':
+			var found = false;
+			structure.values.forEach(function (value) {
+				if (value == object) found = true;
+			})
+			if (!found) console.error('Wert "'+object+'" kommt im Set nicht vor. ('+debug+')');
+		break;
+
+		default: console.error('Unbekannter Typ "'+structure.type+'"');
+	}
 }
-
-/*20130328T095625Z*/

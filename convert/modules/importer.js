@@ -1,8 +1,10 @@
 var fs = require('fs');
-var generator = require('./generator.js');
 
-exports.createFromOld = function (path) {
-	var items = [];
+exports.create = function (path) {
+	var result = {
+		schedule:[],
+		speakers:[]
+	};
 
 	var data = JSON.parse(fs.readFileSync(path+'/rp13-schedule.json', 'utf8'));
 	data.schedule.day.forEach(function (day) {
@@ -28,6 +30,7 @@ exports.createFromOld = function (path) {
 
 				var item = {
 					id: parseInt(event.id, 10),
+					lastmodified: new Date('2013-05-03'),
 					day: dayNo,
 					date: new Date(day.date),
 					title: cleanText(event.title),
@@ -43,48 +46,12 @@ exports.createFromOld = function (path) {
 				};
 
 				item.end = new Date(item.start.getTime() + item.duration*60000);
-				items.push(item);
+				result.schedule.push(item);
 			})
 		})
 	})
 
-	return new Schedule(items);
-}
-
-exports.createFromJSON = function (filename) {
-	var items = JSON.parse(fs.readFileSync(filename, 'utf8'));
-
-	items.forEach(function (item) {
-		item.lastmodified = new Date(item.lastmodified);
-		item.date = new Date(item.date);
-		item.start = new Date(item.start);
-		item.end = new Date(item.end);
-
-		item.location = {title:item.location};
-		item.speakers = item.speakers.map(function (speaker) {
-			return {
-				name: speaker,
-				id: speaker
-			};
-		});
-	})
-
-	return new Schedule(items);
-}
-
-exports.createEmpty = function (filename) {
-	return new Schedule([]);
-}
-
-function Schedule(data) {
-	var me = this;
-	me.items = data;
-
-	me.publish = function (filename, structure) {
-		generator.generateTSV(filename+'.tsv', me.items, structure);
-	}
-
-	return me;
+	return result;
 }
 
 function cleanText(text) {

@@ -3,12 +3,50 @@
 		<style type="text/css">
 			body, h3 {
 				font-family: Helvetica, Verdana;
-				font-size: 16px;
+				font-size: 14px;
+				color: #000;
 				line-height: 140%;
 			}
 			h3, p {
 				margin: 0px;
 			}
+			div {
+			}
+			.syntax {
+				font-family: monospace;
+				font-weight: normal;
+				color: #6A6;
+			}
+			.highlight {
+				font-weight: bold;
+				color: #000;
+			}
+			.desc {
+				color: #008;
+				opacity: 0.5;
+				margin-left: 20px;
+			}
+			.desc:hover {
+				opacity: 1.0;
+			}
+			/*
+			span.desc {
+				position: absolute;
+				left: 300px;
+			}
+			div.desc {
+				margin-left: 300px;
+			}*/
+			.desc {
+			}
+			.note {
+				font-size: 13px;
+			}
+			.indent {
+				margin-left: 20px;
+				position: relative;
+			}
+			/*
 			.fields {
 			}
 			.fields > li {
@@ -55,10 +93,12 @@
 			.example_list code {
 				display: block;
 				white-space: pre;
-			}
+			}*/
 		</style>
 	</head>
 	<body>
+		<div class="syntax">
 		#content#
+		</div>
 	</body>
 </html>
