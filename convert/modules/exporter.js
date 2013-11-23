@@ -108,7 +108,8 @@ exports.makeDocu = function (structure, filename, template) {
 				html.push('<div class="indent">');
 
 				html.push(getHTML(structure.substructure, ''));
-
+				
+				html.push('<span class="highlight">, &hellip;</span>');
 				html.push('</div>');
 				html.push('<span class="highlight">]'+suffix+'</span>');
 			break;
@@ -162,86 +163,9 @@ exports.makeDocu = function (structure, filename, template) {
 				console.error('Unbekannter Typ "'+structure.type+'"');
 		}
 
-		return html.join('\n');
-
-		/*
-		html += '<h3 class="key">'+item.key;
-		if (item.optional) html += '<span class="optional"> (optional)</span>';
-		html += '</h3>';
-		html += '<p class="desc">'+item.description+'</p>';
-		*/
+		return html.join('');
 	}
-	/*
-	var html = structure.items.map(function (item) {
-		var html = '';
-		html += '<h3 class="key">'+item.key;
-		if (item.optional) html += '<span class="optional"> (optional)</span>';
-		html += '</h3>';
 
-
-		if (item.examples) {
-			var examples = [];
-			Object.keys(item.examples).forEach(function (key) {
-				var list = item.examples[key];
-				var codes = ['<code><b>'+item.header[key]+'</b></code>'];
-				var known = {'':true};
-				for (var i = 0; i < list.length; i++) {
-					if (!known[list[i]]) {
-						codes.push('<code>'+list[i]+'</code>');
-						known[list[i]] = true;
-						if (codes.length > 10) break;
-					}
-				}
-				if (codes.length > 1) {
-					examples.push('<span class="example_type"><span class="example_type_name">'+key+'</span><span class="example_list">'+codes.join('')+'</span></span>');
-				}
-			});
-			if (examples.length > 0) {
-				html += '<p class="examples">Beispiele: '+examples.join(' ')+'</p>';
-			}
-		}
-		
-
-		switch (item.type) {
-				case 'arrayofobjects':
-					var subhtml = getDocuHTML(item);
-					html += '<p class="type">Datentyp: Array of Objects<br>Die einzelnen Objekte sind folgendermaßen definiert:'+subhtml+'</p>';
-				break;
-
-				case 'datetime': html += '<p class="type">Datentyp: DateTime</p>'; break;
-				
-				case 'integer': html += '<p class="type">Datentyp: Integer</p>'; break;
-				
-				case 'object':
-					var subhtml = getDocuHTML(item);
-					html += '<p class="type">Datentyp: Object<br>Das Objekt ist folgendermaßen definiert:'+subhtml+'</p>';
-				break;
-
-				case 'set':
-					var values = [];
-					item.values.forEach(function (value) {
-						switch (typeof value) {
-							case 'string': value = '"'+value+'" <span class="note">(String)</span>'; break;
-							case 'number': value = value+' <span class="note">(Zahl)</span>'; break;
-							default: console.error('Set-Typ unbekannt');
-						}
-						values.push('<li>'+value+'</li>');
-					});
-					html += '<p class="type">Datentyp: Set<br>Mit den möglichen Werten:<ul class="values">'+values.join('\n')+'</ul></p>';
-				break;
-				
-				case 'string': html += '<p class="type">Datentyp: String</p>'; break;
-				
-				case 'url': html += '<p class="type">Datentyp: String (valide URL)</p>'; break; break;
-				
-				default: console.error('Unbekannter Typ "'+item.type+'"');
-			}
-
-
-		
-		return '<li>'+html+'</li>';
-	});
-*/
 	template = fs.readFileSync(template, 'utf8');
 	var html = getHTML(structure.structure, '');
 	html = template.replace(/#content#/, html);
