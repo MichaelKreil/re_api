@@ -88,7 +88,7 @@ exports.generateDocu = function (structure, filename, template) {
 
 		switch (structure.type) {
 			case 'object':
-				html.push('<span class="highlight">{</span> '+desc+'');
+				html.push('<span class="highlight">{</span> '+desc);
 
 				html.push('<div class="indent">');
 
@@ -103,14 +103,14 @@ exports.generateDocu = function (structure, filename, template) {
 			break;
 
 			case 'array':
-				html.push('<span class="highlight">[</span> '+desc+'');
+				html.push('<span class="highlight">[</span> '+desc);
 				html.push('<div class="indent">');
 
 				html.push(getHTML(structure.substructure, ''));
 				
-				html.push('<span class="highlight">, &hellip;</span>');
+				html.push(', &hellip;');
 				html.push('</div>');
-				html.push('<span class="highlight">]'+suffix+'</span>');
+				html.push('<span class="highlight">]</span>'+suffix);
 			break;
 
 			case 'string':
