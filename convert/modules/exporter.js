@@ -1,81 +1,114 @@
 var fs = require('fs');
+exports.generateTSV = function (filename, data, structure, filter) {
+	var subdata = data;
+	var substructure = structure.data;
 
+	filter.forEach(function (key) {
+		var found = substructure.substructure.filter(function (element) {
+			return element.key == key;
+		});
+		if (found.length == 1) {
+			subdata = subdata[key];
+			substructure = found[0];
+		} else {
+			console.error('Konnte Element "'+key+'" nicht finden.');
+			process.exit();
+		}
+	});
 
-exports.generateTSV = function (filename, items, structure) {
-	var funcs = [];
-	var header = [];
-	var structureItems = [];
-
-	var rec = function (structure, access, prefix) {
-
-		if (access === undefined) access = function (a) { return a }
-		if (prefix === undefined) prefix = '';
-
-		structure.items.forEach(function (item) {
-			var key = item.key;
-			switch (item.type) {
-				case 'integer':
-				case 'set':
-				case 'string':
-				case 'url':
-					funcs.push(function (item) {
-						return (access(item) === undefined || access(item)[key] === undefined) ? '' : stripHTML(access(item)[key])
-					});
-					header.push(prefix+key);
-					structureItems.push(item);
-				break;
-				case 'datetime':
-					funcs.push(function (item) {
-						return (access(item) === undefined || access(item)[key] === undefined) ? '' : formatDate(access(item)[key])
-					});
-					header.push(prefix+key);
-					structureItems.push(item);
-				break;
-				case 'object':
-					rec(
-						item,
-						function (a) { return access(a)[key] },
-						prefix+key+'_'
-					)
-				break;
-				case 'arrayofobjects':
-					var subkey = item.items[0].key;
-					funcs.push(function (item) {
-						var list = [];
-						access(item)[key].forEach(function (subitem) {
-							list.push(subitem[subkey]);
-						});
-						return list.join(', ');
-					});
-					header.push(prefix+key+'_'+subkey+'s');
-					structureItems.push(item);
-				break;
-				default:
-					console.error('Unknown Type "'+item.type+'"');
-			}
-		})
+	if (substructure.type != 'array') {
+		console.error('Für TSV-Export muss das Element ein Array sein.');
+		process.exit();
 	}
 
-	rec(structure.structure);
+	var tsvStructure = [];
+	var formatFunctions = {
+		'datetime':formatExcelDate,
+		'integer':stripHTML,
+		'set':stripHTML,
+		'string':stripHTML,
+		'url':stripHTML
+	};
 
-	structureItems.forEach(function (item, index) {
-		if (item.examples === undefined) item.examples = {};
-		if (item.examples.tsv === undefined) item.examples.tsv = [];
-		if (item.header === undefined) item.header = {};
-		item.header.tsv = header[index];
+	analyseStructure(substructure.substructure);
+
+	function analyseStructure(structure, keys, access) {
+		if (!keys) keys = [];
+		if (!access) access = [];
+
+		switch (structure.type) {
+			case 'object':
+				structure.substructure.forEach(function (substructure) {
+					analyseStructure(
+						substructure,
+						keys.concat([substructure.key]),
+						access.concat(['.'+substructure.key])
+					)
+				})
+			break;
+			case 'datetime':
+			case 'integer':
+			case 'set':
+			case 'string':
+			case 'url':
+				tsvStructure.push({header:keys,access:access,format:formatFunctions[structure.type]});
+			break;
+			case 'array':
+				var substructure = structure.substructure;
+				switch (substructure.type) {
+					case 'object':
+						var subkey = substructure.substructure[0].key;
+						var subtype = substructure.substructure[0].type;
+						var subFormatFunction = formatFunctions[subtype];
+						var aggregateFunction = function (data) {
+							var d = data.map(function (element) {
+								return subFormatFunction(element[subkey]);
+							});
+							return d.join(', ');
+						}
+						tsvStructure.push({
+							header:keys.concat([substructure.substructure[0].key]),
+							access:access,
+							format:aggregateFunction
+						});
+					break;
+					default: 
+						console.error('Unbekannter Sub-Typ "'+substructure.type+'"');
+						process.exit();
+				}
+			break;
+			default:
+				console.error('Unbekannter Typ "'+structure.type+'"');
+				process.exit();
+		}
+	}
+
+	var header = tsvStructure.map(function (element) {
+		return element.header.join('_');
 	});
+	var tsv = [header];
 
-	var tsv = [];
-	tsv.push(header.join('\t'));
-	items.forEach(function (item) {
-		var line = funcs.map(function (func, index) {
-			var value = func(item).replace(/\n/g, '\\n').replace(/\r/g, '\\r').replace(/\t/g, '\\t');
-			structureItems[index].examples.tsv.push(value);
+	subdata.forEach(function (item) {
+		row = tsvStructure.map(function (tsvItem) {
+			var value = item;
+			tsvItem.access.forEach(function (path) {
+				if (value === undefined) return;
+				if (path.charAt(0) == '.') {
+					value = value[path.substr(1)];
+				} else {
+					console.error('DEFEKT');
+				}
+			});
+			if (value === undefined) return '';
+			return tsvItem.format(value);
 		})
-		tsv.push(line.join('\t'));
-	});
+		tsv.push(row);
+	})
+
+	tsv = tsv.map(function (row) { return row.join('\t') });
+	tsv = tsv.join('\n');
 	
-	fs.writeFileSync(filename, tsv.join('\n'), 'utf8');
+	fs.writeFileSync(filename, tsv, 'utf8');
 };
 
 exports.generateDocu = function (structure, filename, template) {

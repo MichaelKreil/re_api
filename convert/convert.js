@@ -12,7 +12,9 @@ var data = importer.create(srcPath+'/rp13');
 
 datastructure.check(data);
 
-//exporter.makeTSV(dstPath+'/data/schedule.tsv', datastructure, ['schedule']);
+exporter.generateTSV(dstPath+'/data/schedule.tsv', data, datastructure, ['schedule']);
+exporter.generateTSV(dstPath+'/data/speakers.tsv', data, datastructure, ['speakers']);
+exporter.generateTSV(dstPath+'/data/locations.tsv', data, datastructure, ['locations']);
 
 //process.exit();
 
