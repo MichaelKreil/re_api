@@ -243,8 +243,33 @@
 					},
 					{
 						"key":"url",
-						"description":"Url der/des Speakerin/Speakers auf der re:publica-Seite.",
-						"type":"string"
+						"description":"URL der/des Speakerin/Speakers auf der re:publica-Seite.",
+						"type":"url",
+						"optional":true
+					},
+					{
+						"key":"picture",
+						"description":"URL zu einem Bild, z.B. Avatar oder Portraitfoto",
+						"type":"url",
+						"optional":true
+					},
+					{
+						"key":"biography",
+						"description":"Kurzer Selbstbeschreibungstext",
+						"type":"string",
+						"optional":true
+					},
+					{
+						"key":"organization",
+						"description":"Name der Firma/Organisation",
+						"type":"string",
+						"optional":true
+					},
+					{
+						"key":"position",
+						"description":"Position innerhalb der Firma/Organisation",
+						"type":"string",
+						"optional":true
 					}
 				]
 			}

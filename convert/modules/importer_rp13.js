@@ -38,7 +38,6 @@ exports.create = function (path) {
 				}
 				speakers = speakers.map(function (speaker) {
 					return {
-						name: speaker['#text']
 						id: ''+parseInt(speaker.id, 10)
 					}
 				});
@@ -71,6 +70,29 @@ exports.create = function (path) {
 				});
 			});
 		});
+	});
+
+	var speakers = {};
+
+	result.speakers = data.schedule.speakers.speaker.map(function (speaker) {
+		var obj = {
+			name:speaker.fullname,
+			id:speaker.persons
+		}
+		if (speaker.picture) {
+			obj.picture = 'http://13.re-publica.de/files/pictures/picture-'+obj.id+'.jpg';
+		}
+		if (speaker.biography) obj.biography = speaker.biography;
+		if (speaker.organization) obj.organization = speaker.organization;
+		if (speaker.position) obj.position = speaker.position;
+		speakers[obj.id] = obj;
+		return obj;
+	});
+
+	result.sessions.forEach(function (session) {
+		session.speakers.forEach(function (speaker) {
+			speaker.name = speakers[speaker.id].name;
+		})
 	});
 
 	result.locations.forEach(function (location) {
