@@ -1,20 +1,9 @@
 var fs = require('fs');
-exports.generateTSV = function (filename, data, structure, filter) {
-	var subdata = data;
-	var substructure = structure.data;
 
-	filter.forEach(function (key) {
-		var found = substructure.substructure.filter(function (element) {
-			return element.key == key;
-		});
-		if (found.length == 1) {
-			subdata = subdata[key];
-			substructure = found[0];
-		} else {
-			console.error('Konnte Element "'+key+'" nicht finden.');
-			process.exit();
-		}
-	});
+exports.generateTSV = function (filename, data, structure, filter) { 
+	var filter = filterData(data, structure.data, filter);
+	var subdata = filter.data;
+	var substructure = filter.structure;
 
 	if (substructure.type != 'array') {
 		console.error('Für TSV-Export muss das Element ein Array sein.');
@@ -225,4 +214,27 @@ function stripHTML(text) {
 	text = text.replace(/\&nbsp;/g, ' ');
 	text = text.replace(/ {2,}/g, ' ');
 	return text;
+}
+
+function filterData(data, structure, filter) {
+	var subdata = data;
+	var substructure = structure;
+
+	filter.forEach(function (key) {
+		var found = substructure.substructure.filter(function (element) {
+			return element.key == key;
+		});
+		if (found.length == 1) {
+			subdata = subdata[key];
+			substructure = found[0];
+		} else {
+			console.error('Konnte Element "'+key+'" nicht finden.');
+			process.exit();
+		}
+	});
+
+	return {
+		data: subdata,
+		structure: substructure
+	}
 }
