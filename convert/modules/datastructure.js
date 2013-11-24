@@ -3,14 +3,14 @@ var fs = require('fs');
 exports.load = function (filename) {
 	var me = {};
 
-	me.structure = JSON.parse(fs.readFileSync(filename, 'utf8'));
+	me.data = JSON.parse(fs.readFileSync(filename, 'utf8'));
 
 	me.check = function (obj) {
-		validate(obj, me.structure, 'root');
+		validate(obj, me.data, 'root');
 	};
 
 	me.generateDocu = function (filename, template) {
-		var html = getDocuHTML(me.structure);
+		var html = getDocuHTML(me.data);
 		template = fs.readFileSync(template, 'utf8');
 		html = template.replace(/#content#/, html);
 		fs.writeFileSync(filename, html, 'utf8');
