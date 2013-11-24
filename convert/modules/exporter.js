@@ -217,6 +217,13 @@ function stripHTML(text) {
 }
 
 function filterData(data, structure, filter) {
+	if (!filter) {
+		return {
+			data: data,
+			structure: structure
+		}
+	}
+
 	var subdata = data;
 	var substructure = structure;
 
