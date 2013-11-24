@@ -49,7 +49,7 @@ exports.create = function (path) {
 					day: dayNo,
 					date: new Date(day.date),
 					title: cleanText(event.title),
-					location: { name: room.name },
+					location: { name:room.name, id:room.name },
 					abstract: cleanText(event.description),
 					start: new Date(day.date + ' ' + event.start),
 					duration: parseInt(event.duration.split(' ')[0], 10),

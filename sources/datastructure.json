@@ -66,6 +66,11 @@
 								"key":"name",
 								"description":"Titel der Stage",
 								"type":"string"
+							},
+							{
+								"key":"id",
+								"description":"Eindeutige ID der Stage",
+								"type":"string"
 							}
 						]
 					},
