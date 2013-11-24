@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var importer = require('./modules/importer.js');
+var importer = require('./modules/importer_rp13.js');
 var exporter = require('./modules/exporter.js');
 
 var srcPath = path.resolve('../sources');
