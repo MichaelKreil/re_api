@@ -243,6 +243,32 @@
 					}
 				]
 			}
+		},
+		{
+			"key":"locations",
+			"description":"Auflistung aller Locations",
+			"type":"array",
+			"substructure":{
+				"description":"Definition einer Location",
+				"type":"object",
+				"substructure":[
+					{
+						"key":"name",
+						"description":"Name der/des Speakerin/Speakers",
+						"type":"string"
+					},
+					{
+						"key":"id",
+						"description":"Eindeutige ID der/des Speakerin/Speakers.",
+						"type":"string"
+					},
+					{
+						"key":"url",
+						"description":"Url der/des Speakerin/Speakers auf der re:publica-Seite.",
+						"type":"string"
+					}
+				]
+			}
 		}
 	]
 }

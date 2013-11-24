@@ -49,7 +49,9 @@ exports.create = function (path) {
 				result.schedule.push(item);
 			})
 		})
-	})
+	});
+
+	result.locations = [];
 
 	return result;
 }
