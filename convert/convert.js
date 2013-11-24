@@ -12,17 +12,17 @@ var data = importer.create(srcPath+'/rp13');
 
 datastructure.check(data);
 
-exporter.generateTSV(dstPath+'/data/schedule.tsv', data, datastructure, ['schedule']);
+exporter.generateTSV(dstPath+'/data/sessions.tsv', data, datastructure, ['sessions']);
 exporter.generateTSV(dstPath+'/data/speakers.tsv', data, datastructure, ['speakers']);
 exporter.generateTSV(dstPath+'/data/locations.tsv', data, datastructure, ['locations']);
 
 exporter.generateJSON(dstPath+'/data/all.json', data, datastructure);
-exporter.generateJSON(dstPath+'/data/schedule.json', data, datastructure, ['schedule']);
+exporter.generateJSON(dstPath+'/data/sessions.json', data, datastructure, ['sessions']);
 exporter.generateJSON(dstPath+'/data/speakers.json', data, datastructure, ['speakers']);
 exporter.generateJSON(dstPath+'/data/locations.json', data, datastructure, ['locations']);
 
 exporter.generateJSONPretty(dstPath+'/data/all.pretty.json', data, datastructure);
-exporter.generateJSONPretty(dstPath+'/data/schedule.pretty.json', data, datastructure, ['schedule']);
+exporter.generateJSONPretty(dstPath+'/data/sessions.pretty.json', data, datastructure, ['sessions']);
 exporter.generateJSONPretty(dstPath+'/data/speakers.pretty.json', data, datastructure, ['speakers']);
 exporter.generateJSONPretty(dstPath+'/data/locations.pretty.json', data, datastructure, ['locations']);
 

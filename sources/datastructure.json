@@ -3,7 +3,7 @@
 	"type":"object",
 	"substructure": [
 		{
-			"key":"schedule",
+			"key":"sessions",
 			"description":"Auflistung der Sessions",
 			"type":"array",
 			"substructure": {

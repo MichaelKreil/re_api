@@ -2,7 +2,7 @@ var fs = require('fs');
 
 exports.create = function (path) {
 	var result = {
-		schedule:[],
+		sessions:[],
 		speakers:[],
 		locations:[]
 	};
@@ -61,7 +61,7 @@ exports.create = function (path) {
 				};
 
 				session.end = new Date(session.start.getTime() + session.duration*60000);
-				result.schedule.push(session);
+				result.sessions.push(session);
 
 				location.sessions.push({
 					title:session.title,
