@@ -1,0 +1,1922 @@
+[
+	{
+		"name": "stage 1",
+		"id": "stage 1",
+		"sessions": [
+			{
+				"title": "Eröffnung",
+				"id": "5115",
+				"start": "2013-05-06T08:15:00.000Z",
+				"end": "2013-05-06T09:00:00.000Z"
+			},
+			{
+				"title": "Innovating Africa",
+				"id": "5044",
+				"start": "2013-05-06T09:00:00.000Z",
+				"end": "2013-05-06T10:00:00.000Z"
+			},
+			{
+				"title": "brand eins",
+				"id": "5369",
+				"start": "2013-05-06T10:00:00.000Z",
+				"end": "2013-05-06T10:15:00.000Z"
+			},
+			{
+				"title": "Aufruf zum metakulturellen Diskurs",
+				"id": "5035",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "brand eins",
+				"id": "5048",
+				"start": "2013-05-06T11:15:00.000Z",
+				"end": "2013-05-06T11:30:00.000Z"
+			},
+			{
+				"title": "Iceland could have been innovative: Participatory democracy.",
+				"id": "6424",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "brand eins",
+				"id": "5370",
+				"start": "2013-05-06T12:30:00.000Z",
+				"end": "2013-05-06T12:45:00.000Z"
+			},
+			{
+				"title": "Ecstasy and Despair: How Powerful Emotions Trigger Digital Activism",
+				"id": "4946",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:15:00.000Z"
+			},
+			{
+				"title": "Cybersexism",
+				"id": "5597",
+				"start": "2013-05-06T13:15:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "brand eins",
+				"id": "5371",
+				"start": "2013-05-06T13:45:00.000Z",
+				"end": "2013-05-06T14:00:00.000Z"
+			},
+			{
+				"title": "Building a web we can trust",
+				"id": "5037",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T14:30:00.000Z"
+			},
+			{
+				"title": "Speech at scale",
+				"id": "5869",
+				"start": "2013-05-06T14:30:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "brand eins",
+				"id": "5372",
+				"start": "2013-05-06T15:00:00.000Z",
+				"end": "2013-05-06T15:15:00.000Z"
+			},
+			{
+				"title": "Iron Sky",
+				"id": "5046",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T15:45:00.000Z"
+			},
+			{
+				"title": "Making-of R´ha",
+				"id": "6039",
+				"start": "2013-05-06T16:00:00.000Z",
+				"end": "2013-05-06T16:30:00.000Z"
+			},
+			{
+				"title": "Comic Misunderstanding – A conversation with Graham Linehan (IT Crowd)",
+				"id": "5117",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Überraschungsvortrag II",
+				"id": "1152",
+				"start": "2013-05-06T17:45:00.000Z",
+				"end": "2013-05-06T18:45:00.000Z"
+			},
+			{
+				"title": "Der Montag liebt dich",
+				"id": "1825",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T08:30:00.000Z"
+			},
+			{
+				"title": "Zeit - Geld - Familie",
+				"id": "5118",
+				"start": "2013-05-07T08:30:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Crowdsourced Astronomy",
+				"id": "5051",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "You Can Turn Off the Public Internet But You Can't Turn Off the Internet Public",
+				"id": "5704",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "Das vernetzte Auto – wie verändert sich unsere Mobilität? Ein Gespräch mit Dieter Zetsche.",
+				"id": "4735",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Life with extra Senses - How to become a Cyborg.",
+				"id": "5705",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Robot Ethics",
+				"id": "5040",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "The Bobs’ Six Winners",
+				"id": "6382",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Cat Memes",
+				"id": "5049",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Ohne Jauch geht’s auch. Thema: Von Human Resources zu Human Relations - wie sieht die Arbeit der Zukunft aus?",
+				"id": "1449",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "21st Century Skills - Keynote + Panel",
+				"id": "5595",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Take a ride on the Cyberpunk Express train",
+				"id": "5929",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Speculative Design",
+				"id": "5047",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "Das Blatt und das Netz. Überlegungen zu einer Medientheorie des Papiers",
+				"id": "5849",
+				"start": "2013-05-08T11:00:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Die EU-Datenschutzreform als Balanceakt",
+				"id": "4380",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "It's not a fax machine connect to a waffle iron",
+				"id": "5119",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Ihr wollt also wissen, was #aufschrei gebracht hat?",
+				"id": "6398",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			},
+			{
+				"title": "Interview with Ai Weiwei",
+				"id": "8363",
+				"start": "2013-05-08T15:30:00.000Z",
+				"end": "2013-05-08T16:00:00.000Z"
+			},
+			{
+				"title": "Verabschiedung",
+				"id": "6481",
+				"start": "2013-05-08T16:00:00.000Z",
+				"end": "2013-05-08T16:30:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 3",
+		"id": "stage 3",
+		"sessions": [
+			{
+				"title": "Die maschinenlesbare Regierung - Eine kritische Analyse zur Gegenwart von Open Data und Open Goverment in Deutschland",
+				"id": "879",
+				"start": "2013-05-06T09:00:00.000Z",
+				"end": "2013-05-06T10:00:00.000Z"
+			},
+			{
+				"title": "Open Data – und was hat das mit mir zu tun?",
+				"id": "1547",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T10:45:00.000Z"
+			},
+			{
+				"title": "openPlanB - Stufe 2",
+				"id": "1538",
+				"start": "2013-05-06T10:45:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "Opening Public Transport in Berlin",
+				"id": "5594",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:00:00.000Z"
+			},
+			{
+				"title": "Open Data & Culture - Creating the Cultural Commons",
+				"id": "1940",
+				"start": "2013-05-06T12:00:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "Freedom of speech, nipples and the rule of law",
+				"id": "2304",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:15:00.000Z"
+			},
+			{
+				"title": "Personal Data: Nothing to hide?",
+				"id": "4711",
+				"start": "2013-05-06T13:15:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Stimmt das? Check mit dem ZDF die Fakten im Wahlkampf",
+				"id": "6128",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Das Buch muss überwunden werden - Digitales Utopia oder eher El Dorado?",
+				"id": "1577",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Wikipedia: wo User geblockt, Artikel gelöscht und Reputationen zerstört werden",
+				"id": "1823",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Das heilige Abendmahl",
+				"id": "2012",
+				"start": "2013-05-06T17:45:00.000Z",
+				"end": "2013-05-06T18:45:00.000Z"
+			},
+			{
+				"title": "Modeblogger vereinigt euch! Sind Blog-Netzwerke der Schlüssel zur Professionalisierung?",
+				"id": "1759",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Das Ende der Arbeit – Wenn Maschinen uns ersetzen",
+				"id": "1532",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "Investigation 2.0",
+				"id": "2923",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:00:00.000Z"
+			},
+			{
+				"title": "News you can't print - journalism beyond the article",
+				"id": "1981",
+				"start": "2013-05-07T11:00:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "Why Hackers Should Be Fed",
+				"id": "184",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "THE NEW//AFRICA",
+				"id": "6431",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Debunking conspiracy theories",
+				"id": "1674",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Interactive Cologne",
+				"id": "6171",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Mixing Pop & Politics",
+				"id": "183",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:15:00.000Z"
+			},
+			{
+				"title": "Weder süß, noch salzig: Wie mir die Piratenpartei meine Freizeit nahm",
+				"id": "1476",
+				"start": "2013-05-07T17:15:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Herm und Nilz präsentieren: Das Internet – Der Preis",
+				"id": "1814",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "Responding effectively to digital emergencies & human rights violations online",
+				"id": "4176",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Im Schatten des Rechts - Wie informelle Normen das Urheberrecht unterlaufen oder auch auf den Kopf stellen",
+				"id": "1560",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T09:45:00.000Z"
+			},
+			{
+				"title": "Netzkultur vs Urheberrecht",
+				"id": "1806",
+				"start": "2013-05-08T09:45:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "\"The first thing we do, let's kill all the lawyers” – Die Anwälte, das Internet & die Abmahnungen",
+				"id": "1318",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "Der Urheberrechts-Yeti",
+				"id": "1765",
+				"start": "2013-05-08T11:00:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Myths of the Open Internet: Bust Them and Get Busy",
+				"id": "3059",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Internet-Meme: Geschichte, Forschungsstand, Kontroversen",
+				"id": "1986",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T13:30:00.000Z"
+			},
+			{
+				"title": "I palindrome I – your life is mine",
+				"id": "1234",
+				"start": "2013-05-08T13:30:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "E-Zigarette, der Genuß der aus dem Internet kam",
+				"id": "162",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T14:45:00.000Z"
+			},
+			{
+				"title": "Richtig essen, richtig schlafen, und lasst die Mate weg: Besser Leben für Geeks",
+				"id": "1865",
+				"start": "2013-05-08T14:45:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "newthinking",
+		"id": "newthinking",
+		"sessions": [
+			{
+				"title": "What Would Harry Do?",
+				"id": "7131",
+				"start": "2013-05-06T09:00:00.000Z",
+				"end": "2013-05-06T09:30:00.000Z"
+			},
+			{
+				"title": "Expand your SEO to the next level",
+				"id": "7529",
+				"start": "2013-05-06T12:00:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "Good Will - Crowd Donations mal Anders",
+				"id": "7132",
+				"start": "2013-05-06T13:00:00.000Z",
+				"end": "2013-05-06T14:00:00.000Z"
+			},
+			{
+				"title": "blognetz.com - Visualisierung der deutschsprachigen Blogger_innen",
+				"id": "7133",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "netzpolitik.org",
+				"id": "7256",
+				"start": "2013-05-06T15:00:00.000Z",
+				"end": "2013-05-06T15:30:00.000Z"
+			},
+			{
+				"title": "[ws]labs ‘creative entrepreneurship’",
+				"id": "7137",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "Stoos Network",
+				"id": "7138",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:00:00.000Z"
+			},
+			{
+				"title": "Why Open Source ERP is Both Possible and Awesome (in the Real World)",
+				"id": "7416",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Business Immigration Service - let’s start your business in Berlin",
+				"id": "7258",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Stadt Land <Code>",
+				"id": "7134",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Frismakers & How to present your project in 300 seconds",
+				"id": "7135",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "Zwischen Soho-House und betahaus: das hausungarn als Coworking Club für Berlin´s digitale Kreativwirtschaft",
+				"id": "8176",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:15:00.000Z"
+			},
+			{
+				"title": "Torstraßen Festival 2013",
+				"id": "7139",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T13:30:00.000Z"
+			},
+			{
+				"title": "Sport Meetup",
+				"id": "7238",
+				"start": "2013-05-08T14:45:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 4",
+		"id": "stage 4",
+		"sessions": [
+			{
+				"title": "Community Organizing - lessons from Obama for America 2012",
+				"id": "5514",
+				"start": "2013-05-06T09:15:00.000Z",
+				"end": "2013-05-06T09:45:00.000Z"
+			},
+			{
+				"title": "Political Advocacy and the Internet",
+				"id": "6019",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T10:45:00.000Z"
+			},
+			{
+				"title": "403 Forbidden: A Hands on Experience of the Iranian Internet",
+				"id": "1930",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "Silly jokes or game changers? A live international comparison of political memes.",
+				"id": "1697",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:15:00.000Z"
+			},
+			{
+				"title": "The Revolution of Jokes",
+				"id": "1206",
+				"start": "2013-05-06T13:15:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "The story of Baladna FM: How a Syrian online radio station is broadcasting against the regime and has to deal with hacker attacks by the Syrian Electronic Army",
+				"id": "1552",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Personal Revolutions Along the Nile",
+				"id": "1573",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T15:45:00.000Z"
+			},
+			{
+				"title": "Boom vs. Culture Clash | Understanding online in South East Asia",
+				"id": "1916",
+				"start": "2013-05-06T15:45:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Muslimische BloggerInnen schaffen Gegenöffentlichkeit",
+				"id": "1726",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:00:00.000Z"
+			},
+			{
+				"title": "Facebook: vom Revolutionsmacher zum Revolutionsgegner?",
+				"id": "170",
+				"start": "2013-05-06T17:00:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "TEN CITIES Project: Clubculture IN/SIDE/OUT",
+				"id": "6402",
+				"start": "2013-05-06T17:45:00.000Z",
+				"end": "2013-05-06T18:45:00.000Z"
+			},
+			{
+				"title": "Das kleine Digitale und das große Ganze. Internetaktivismus, Netzbewegung und Politik",
+				"id": "1959",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Let’s Talk about Content! - Wie sich die Infrastruktur des Internets verändert",
+				"id": "1628",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "Global Internet Infrastructure - Shaping the world through neutral exchanges",
+				"id": "6432",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "LobbyPlag",
+				"id": "6428",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Marvin und der Blues",
+				"id": "1278",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "... and the rest will follow! (Digitale) Musikwirtschaft und Regionalentwicklung. Ein Zusammenhang in Gegenwart und Zukunft.",
+				"id": "4785",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "How music can predict the human/machine future",
+				"id": "2732",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:00:00.000Z"
+			},
+			{
+				"title": "Music Recommendation - From Peel To Peer: Curatorial Models",
+				"id": "1887",
+				"start": "2013-05-07T16:00:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Music Recommendation – Future Casting",
+				"id": "1859",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "dorkbot.bln \"re:publica 13 Special\"",
+				"id": "2282",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "1 Million Petitionen – Protestieren wir richtig im Netz?",
+				"id": "5134",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "The Open Innovation Ecosystem",
+				"id": "6439",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T09:45:00.000Z"
+			},
+			{
+				"title": "New Open Cities Challenge: Managing large tourism flows",
+				"id": "4945",
+				"start": "2013-05-08T09:45:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "crushing data silos with ownCloud",
+				"id": "1438",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "Autonomous web apps with Sockethub",
+				"id": "6448",
+				"start": "2013-05-08T11:00:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Wie das Internet literarisches Schreiben verändert",
+				"id": "1749",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Die vierte Wand als Twitterwall. Eine Schauspiel- Performance mit Hashtag. Ein Experiment.",
+				"id": "2007",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T13:30:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 5",
+		"id": "stage 5",
+		"sessions": [
+			{
+				"title": "Innovationsbeschleuniger gesucht! – Wie wär‘s mit Barrierefreiheit?",
+				"id": "6243",
+				"start": "2013-05-06T10:00:00.000Z",
+				"end": "2013-05-06T10:30:00.000Z"
+			},
+			{
+				"title": "Mehrwert oder Barriere – Wie lassen sich mobile Endgeräte für alle zugänglich machen und wo entsteht Innovation?",
+				"id": "6242",
+				"start": "2013-05-06T10:30:00.000Z",
+				"end": "2013-05-06T11:30:00.000Z"
+			},
+			{
+				"title": "Code Literacy – Verstehen, was uns online lenkt",
+				"id": "1716",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "Algorithmen-Ethik",
+				"id": "1781",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Finanzblogs: Intellektuelle Elite oder verständliches Massenmedium?",
+				"id": "5946",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Bis dass der Tod uns scheidet - Soziale Medien und der Umgang mit dem Sterben",
+				"id": "1208",
+				"start": "2013-05-06T15:45:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Praktische Anleitung für den fürsorglichen Überwachungsstaat",
+				"id": "2283",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:00:00.000Z"
+			},
+			{
+				"title": "Surveillance by Design",
+				"id": "2546",
+				"start": "2013-05-06T17:00:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Wissen.Macht.Moral – über das Digitale (im) Marionettentheater",
+				"id": "4257",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Werde Shareholder der Revolution",
+				"id": "4694",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T09:45:00.000Z"
+			},
+			{
+				"title": "Mediated Life after Virtualization. A Critical Look at the Scenarios Forecast by New Wearable Augmented Reality Visualization Technologies.",
+				"id": "2442",
+				"start": "2013-05-07T09:45:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "IN, SIDE, OUT of SCIENCE",
+				"id": "1642",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "How radical are Open Access and the Digital Humanities?",
+				"id": "5337",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Faszination Grundlagenforschung – Das Higgs, Big Data und die Teilchenphysik",
+				"id": "1626",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Yarnbombing, Social Commerce und die Craftistas: Wie das Internet Crafting und Crafting unsere Gesellschaft verändert",
+				"id": "1405",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T14:45:00.000Z"
+			},
+			{
+				"title": "Personal Branding Kampagne: Wie der neue Job dich findet",
+				"id": "1868",
+				"start": "2013-05-07T14:45:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Hell Yeah, it's Rocket Science! - pushing private space exploration with 30 Million US Dollars",
+				"id": "6169",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Saisonrückblick Social Media Recht",
+				"id": "1397",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Von Television zu WikiVision: Mediale Grundversorgung von allen für alle",
+				"id": "1572",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T08:30:00.000Z"
+			},
+			{
+				"title": "Jagen, Sammeln, Pflegen - alte und neue Aufgaben für die Öffentlich-Rechtlichen in Zeiten des Internet",
+				"id": "2045",
+				"start": "2013-05-08T08:30:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Datenbefreiung selbst gemacht.",
+				"id": "188",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Export Controls for Dual-Use Software",
+				"id": "1892",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "The Outernet – A revolution, in reality",
+				"id": "6626",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "\"Hast Du das schon getwittert?\" - Über Nutzen und Risiken von #openjournalism",
+				"id": "182",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T13:30:00.000Z"
+			},
+			{
+				"title": "\"Das meld ich dem Rundfunkrat!\" - Neues aus der öffentlich-rechtlichen Kommentarambulanz",
+				"id": "1348",
+				"start": "2013-05-08T13:30:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Blogs und Bier? Das lob’ ich mir! #ironblogger",
+				"id": "1867",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T14:45:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "workshop D",
+		"id": "workshop D",
+		"sessions": [
+			{
+				"title": "Graben – Retten – Teilen",
+				"id": "2391",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "Open Transfer-Strategien – Chancen und Herausforderungen für Kampagnen-Organisationen",
+				"id": "5578",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Online nutzen – offline Nutzen. Was wir von US-Kampagnen lernen können",
+				"id": "5519",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Mobil-isierung: NGO-Strategien für das Handy",
+				"id": "6127",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "D1",
+				"id": "6210",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "D2",
+				"id": "6231",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "D3",
+				"id": "6235",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "D4",
+				"id": "6239",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "[cancelled] European Libre Education workshop",
+				"id": "5398",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "meshing berlin networking-networks/LABism vs. Lobbyism - quo vadis civic creativity?",
+				"id": "1879",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Die Total-Überwachung des Reiseverkehrs",
+				"id": "1404",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T09:45:00.000Z"
+			},
+			{
+				"title": "Europe vs. Facebook",
+				"id": "6453",
+				"start": "2013-05-08T09:45:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Klackerlaken - building solderless, glowing vibrobots",
+				"id": "1618",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Preenaction – Die Zukunft sozialer Medien „erspielen“?",
+				"id": "1764",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "A Map of Everywhere You Go Outside - Mining Personal Data",
+				"id": "1786",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T14:45:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 6",
+		"id": "stage 6",
+		"sessions": [
+			{
+				"title": "Kinderkram: \"So nutzen Kids das Web\"",
+				"id": "1454",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "get re:ady to start: start-up pitches (1)",
+				"id": "6423",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "get re:ady to start: start-up pitches (2)",
+				"id": "4747",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Silicon Paddy - The South East Asian Tech Startup Scene",
+				"id": "6624",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T14:30:00.000Z"
+			},
+			{
+				"title": "Hacker culture on the road: how to go from the computers and hackerspaces to the streets.",
+				"id": "5316",
+				"start": "2013-05-06T14:30:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Boosting Creative Entrepreneurship in NYC, Berlin and Amsterdam",
+				"id": "5908",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Twitter und die Politik: Zur Analyse temporärer und langfristiger politischer Netzwerke",
+				"id": "1715",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Googlequiz - 2013 Edition",
+				"id": "3110",
+				"start": "2013-05-06T17:45:00.000Z",
+				"end": "2013-05-06T18:45:00.000Z"
+			},
+			{
+				"title": "10 tips to grow your Positive Entrepreneurial Energy",
+				"id": "5722",
+				"start": "2013-05-07T08:30:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Impact Investing – a New Era of Good-Cause Investors?",
+				"id": "5368",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "Afrinnovator - Startups in Africa: Appreciating country dynamics",
+				"id": "6433",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "get re:ady to start: start-up pitches (3)",
+				"id": "6422",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Zukunft der Gesundheitsversorgung: Internetmedizin in Deutschland",
+				"id": "6435",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Say 'Digital Humanities' One More Time: Technology, affect and learning in emerging information societies",
+				"id": "6436",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Kontingenz im Design - ODER: der Dschungel der Möglichkeiten",
+				"id": "1955",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:00:00.000Z"
+			},
+			{
+				"title": "haters gonna hate - Lovepicking und die Folgen",
+				"id": "1631",
+				"start": "2013-05-07T16:00:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Digitaldarwinismus – Warum gibt es keine digitalen Bananen?",
+				"id": "1374",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Six degrees of Wikipedia",
+				"id": "1933",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "re:Fefe: Erkenntnisse der empirischen Trollforschung",
+				"id": "980",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T08:30:00.000Z"
+			},
+			{
+				"title": "Kommunikation zwischen Unbekannten über Unbekanntes und warum Internetrollerei nicht schlimm ist",
+				"id": "172",
+				"start": "2013-05-08T08:30:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Lernen Lernen lernen im persönlichen Lernnetzwerk. Wie im digitalen Zeitalter eigensinnig und gemeinsam gelernt wird.",
+				"id": "774",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T09:45:00.000Z"
+			},
+			{
+				"title": "x-learning. Warum die Digitale Revolution des Lernens gescheitert ist.",
+				"id": "5615",
+				"start": "2013-05-08T09:45:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "How to Digital Native: Medienkompetenz auf dem Lehrplan",
+				"id": "6527",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "Digitale Nachhilfe für Azubis und Meister & Nachwuchsförderung in der IT-Branche",
+				"id": "5614",
+				"start": "2013-05-08T11:00:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Gaming-Kultur in Asien - Lernkultur in Deutschland?",
+				"id": "1672",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:15:00.000Z"
+			},
+			{
+				"title": "Best Practice: Medienkompetenz re:learned",
+				"id": "6240",
+				"start": "2013-05-08T12:15:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Von außen nach innen: Der soziale Kontext von Crowdsourcing",
+				"id": "1932",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Gute MOOCs - böse MOOCs? Openness als Killerkriterium!",
+				"id": "1597",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "workshop C",
+		"id": "workshop C",
+		"sessions": [
+			{
+				"title": "Sketchnotes",
+				"id": "1812",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "Content Strategy für NGOs – Webinhalte erst strategisch planen, dann publizieren",
+				"id": "6426",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Von Social Media Management zu Social CRM",
+				"id": "5577",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Systemisch und Souverän durch den digitalen Wandel navigieren",
+				"id": "5576",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Bottom-up & open: Was könnnen Kampagnen von innovativem Bürger-Journalismus lernen?",
+				"id": "5702",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "C1",
+				"id": "6209",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "C2",
+				"id": "6230",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "C3",
+				"id": "6234",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "C4",
+				"id": "6238",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Embrace the Hate",
+				"id": "2870",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:15:00.000Z"
+			},
+			{
+				"title": "Wer bist Du wirklich? Wir basteln uns ehrliche Social-Media-Accounts!",
+				"id": "1389",
+				"start": "2013-05-07T17:15:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Soziale Netze im ärztlichen Behandlungsraum",
+				"id": "1363",
+				"start": "2013-05-08T08:30:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Gesundheit im Internet in Zentraleuropa: Status Quo und Innovationspfade",
+				"id": "4058",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T09:45:00.000Z"
+			},
+			{
+				"title": "Ein Blick in die Zukunft der Personalisierten Medizin",
+				"id": "4656",
+				"start": "2013-05-08T09:45:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Blended Health - Immer noch nicht gesund durch's Internet? Zu dumm, zu arm oder hilft es einfach nicht?",
+				"id": "1382",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Me & My Shadow",
+				"id": "6452",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "workshop A",
+		"id": "workshop A",
+		"sessions": [
+			{
+				"title": "Semiotik für Nerds – Oder von der Unwahrscheinlichkeit gelingender Kommunikation und offenen Kunstwerken",
+				"id": "1864",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "Mehr als Clicktivism: Mit strategischen Online-Kampagnen Politik verändern",
+				"id": "5515",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "E-Partizipation für NGOs – Chancen und Risiken online",
+				"id": "5520",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "10 Fehler die wir alle machen! – Nonprofits und Social Media Stand 2013",
+				"id": "5517",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Neues Berufsbild (Online-) Campaigner/in",
+				"id": "6211",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Eröffnung & Barcamp Session-Planung",
+				"id": "6205",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "A1",
+				"id": "6207",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "A2",
+				"id": "6212",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "A3",
+				"id": "6232",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "A4",
+				"id": "6236",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Spannender Abschluss & Gemütlicher Ausklang",
+				"id": "6437",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Space Science as a creative commons?",
+				"id": "5669",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Street fighting data science",
+				"id": "1714",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Fueling your app with dynamic Open Data",
+				"id": "7096",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "How Cities can foster innovation with apps and Open Data",
+				"id": "5166",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:15:00.000Z"
+			},
+			{
+				"title": "Mobile applications as a tool of public participation in the context of political crisis in contemporary Russia",
+				"id": "2016",
+				"start": "2013-05-08T12:15:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Investigatives Bloggen – Das Informationsfreiheitsgesetz richtig nutzen",
+				"id": "1890",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Von Piraten und Friesennerds: Liquid Democracy in der Praxis",
+				"id": "1767",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T14:45:00.000Z"
+			},
+			{
+				"title": "Offene API für die Lokalpolitik",
+				"id": "2063",
+				"start": "2013-05-08T14:45:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 2",
+		"id": "stage 2",
+		"sessions": [
+			{
+				"title": "Blogging Cuba",
+				"id": "6425",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "Die Geschichte des Computers",
+				"id": "6146",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T12:00:00.000Z"
+			},
+			{
+				"title": "Mass Customization: Da geht noch mehr",
+				"id": "1957",
+				"start": "2013-05-06T12:00:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "YouTube – zwischen Wildwest und Goldgrube.",
+				"id": "1393",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "YouTube macht die Stars von heute",
+				"id": "5866",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Zivilkapitalismus. Wir sind die Wirtschaft.",
+				"id": "4273",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T15:30:00.000Z"
+			},
+			{
+				"title": "Immer dieses Internet!",
+				"id": "5039",
+				"start": "2013-05-06T15:30:00.000Z",
+				"end": "2013-05-06T16:00:00.000Z"
+			},
+			{
+				"title": "Data Kitchen - How to get juicy data from spreadsheets",
+				"id": "1810",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:00:00.000Z"
+			},
+			{
+				"title": "Internet Geographies: Data Shadows and Digital Divisions of Labour",
+				"id": "6145",
+				"start": "2013-05-06T17:00:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Radio Universal",
+				"id": "2161",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Unser Blog soll schöner werden",
+				"id": "6427",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "Digital Labor: New Opportunities, Old Inequalities",
+				"id": "5052",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "Net Neutrality",
+				"id": "5053",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Netzgemüse: The Kids Are Alright",
+				"id": "3983",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T13:30:00.000Z"
+			},
+			{
+				"title": "Heute aufwachsen in Digitalistan: Die neuen mündigen Menschen?",
+				"id": "2042",
+				"start": "2013-05-07T13:30:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Interactive Landscapes",
+				"id": "6403",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Netzpolitischer Nachmittag: IN/SIDE/OUT #digiges",
+				"id": "6059",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "Color Concert & Waiting for Earthquakes",
+				"id": "6434",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Das digitale Quartett - live on stage",
+				"id": "1137",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "3D Printing: (How) can we make it a third industrial revolution?",
+				"id": "4780",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "China, India, Bangladesh, we’re looking at you: Blogging and tweeting in Asia",
+				"id": "6381",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "10 Vorschläge um die Welt zu verbessern",
+				"id": "1707",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Die Digital Natives ziehen in den Krieg",
+				"id": "190",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Online universities - food for thought or an intellectual malnutrition epidemic?",
+				"id": "1446",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T13:30:00.000Z"
+			},
+			{
+				"title": "Ceci n'est pas un MOOC. How to build awesome, open, dirt-cheap online courses",
+				"id": "5965",
+				"start": "2013-05-08T13:30:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Digital by default - „Digital Natives\" im Journalismus",
+				"id": "4381",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "Global Innovation Lounge",
+		"id": "Global Innovation Lounge",
+		"sessions": [
+			{
+				"title": "Opening Global Innovation Lounge",
+				"id": "5970",
+				"start": "2013-05-06T10:15:00.000Z",
+				"end": "2013-05-06T10:45:00.000Z"
+			},
+			{
+				"title": "Introducing: Habaka Madagascar Innovation Hub",
+				"id": "5949",
+				"start": "2013-05-06T10:30:00.000Z",
+				"end": "2013-05-06T10:45:00.000Z"
+			},
+			{
+				"title": "BongoHive: The Story",
+				"id": "5415",
+				"start": "2013-05-06T10:45:00.000Z",
+				"end": "2013-05-06T11:00:00.000Z"
+			},
+			{
+				"title": "Introducing: HiveColab",
+				"id": "7257",
+				"start": "2013-05-06T11:00:00.000Z",
+				"end": "2013-05-06T11:15:00.000Z"
+			},
+			{
+				"title": "AfricaHackTrip – Exploring African Tech Communities",
+				"id": "6184",
+				"start": "2013-05-06T11:30:00.000Z",
+				"end": "2013-05-06T11:45:00.000Z"
+			},
+			{
+				"title": "Nodes and tools for collaboration - Documenting the Maker Movement",
+				"id": "6401",
+				"start": "2013-05-06T12:00:00.000Z",
+				"end": "2013-05-06T12:30:00.000Z"
+			},
+			{
+				"title": "iHub - Lessons from the Trenches",
+				"id": "5668",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:15:00.000Z"
+			},
+			{
+				"title": "Challenges and prospects of ICT in a post-conflict state",
+				"id": "5947",
+				"start": "2013-05-06T13:15:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Stop! Hackertime!",
+				"id": "5966",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T14:30:00.000Z"
+			},
+			{
+				"title": "The Advent of the dot LAN Era",
+				"id": "5189",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T15:45:00.000Z"
+			},
+			{
+				"title": "Why innovation, collaboration and entrepreneurship matters? Experiences in Green Technology Innovation from Ethiopia",
+				"id": "6206",
+				"start": "2013-05-06T15:45:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "Citizen Desk: Rewarding Reporting",
+				"id": "7464",
+				"start": "2013-05-07T08:30:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Why a charitable foundation supports tech hubs in Africa and the fantastic social projects coming out of them",
+				"id": "6183",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T09:45:00.000Z"
+			},
+			{
+				"title": "Beyond lifestyle businesses - Creating world class software companies from Africa that compete globally.",
+				"id": "6400",
+				"start": "2013-05-07T09:45:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "New Approaches to Usability Engineering for Mobiles through Tech-hubs?",
+				"id": "7097",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "Recycling Road Show",
+				"id": "5968",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:00:00.000Z"
+			},
+			{
+				"title": "Hackidemia - changing the world through play",
+				"id": "5969",
+				"start": "2013-05-07T12:15:00.000Z",
+				"end": "2013-05-07T12:30:00.000Z"
+			},
+			{
+				"title": "Networking Experimental Labs - a Brazilian Experience",
+				"id": "6018",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T13:30:00.000Z"
+			},
+			{
+				"title": "(h)activating OPEN ICT4D",
+				"id": "5706",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Stop! Hackertime!",
+				"id": "7099",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "GIZ: Global Knowledge Sharing and Collaboration",
+				"id": "7098",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "theBobberyCast at re:publica",
+				"id": "6124",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "KINU - An Experiment in the Evolution of a Tanzanian Tech Hub",
+				"id": "5967",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:15:00.000Z"
+			},
+			{
+				"title": "Gravity sucks. Open Source Communities Empower and Lift off.",
+				"id": "5948",
+				"start": "2013-05-08T12:15:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Makers Go Pro",
+				"id": "6200",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Stop! Hackertime!",
+				"id": "7100",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "workshop B",
+		"id": "workshop B",
+		"sessions": [
+			{
+				"title": "Im Gespräch mit \"Everyday Rebellion\" – Über die Macht des gewaltlosen Widerstands",
+				"id": "5516",
+				"start": "2013-05-06T12:45:00.000Z",
+				"end": "2013-05-06T13:45:00.000Z"
+			},
+			{
+				"title": "Mobilisieren mit dem neuen Nonprofit-Programm von Youtube",
+				"id": "6126",
+				"start": "2013-05-06T14:00:00.000Z",
+				"end": "2013-05-06T15:00:00.000Z"
+			},
+			{
+				"title": "Mach' es zu ihrem Projekt - New Volunteer Management im Campaigning",
+				"id": "5518",
+				"start": "2013-05-06T15:15:00.000Z",
+				"end": "2013-05-06T16:15:00.000Z"
+			},
+			{
+				"title": "B1",
+				"id": "6208",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "B2",
+				"id": "6214",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "B3",
+				"id": "6233",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "B4",
+				"id": "6237",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Die Liga der Internet-Schurken – \"Post Mortem\" zum Superhelden-Comic des Digitale Gesellschaft e. V.",
+				"id": "2010",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:15:00.000Z"
+			},
+			{
+				"title": "Anwendungsorientierte Analyse volkstümlicher Lebensmittel in der politischen Berichterstattung, oder: Politiker, die in Bratwürste beißen",
+				"id": "841",
+				"start": "2013-05-07T17:15:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Space Night Mission Control ... GEMA, we have a problem. Fluch und Segen freier Inhalte in kommerziellen Märkten.",
+				"id": "4690",
+				"start": "2013-05-08T08:30:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Best Practice-Projekte: Digitale Inklusion",
+				"id": "5133",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Raus aus der Rolle – Behinderung im Fernsehen",
+				"id": "4779",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Die Themenkarriere des Leistungsschutzrechtes für Presseverlage",
+				"id": "1862",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:15:00.000Z"
+			},
+			{
+				"title": "#RotationCuration - eine Kulturbewegung erobert Twitter weltweit",
+				"id": "1258",
+				"start": "2013-05-08T12:15:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "Me & My City",
+				"id": "1535",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "stage 7",
+		"id": "stage 7",
+		"sessions": [
+			{
+				"title": "Sportblogs und Sportjournalismus - Von investigativen Journalismus aus der Nische",
+				"id": "1698",
+				"start": "2013-05-06T16:30:00.000Z",
+				"end": "2013-05-06T17:00:00.000Z"
+			},
+			{
+				"title": "Blog Forever",
+				"id": "6125",
+				"start": "2013-05-06T17:15:00.000Z",
+				"end": "2013-05-06T17:30:00.000Z"
+			},
+			{
+				"title": "Vom Erklärbär zur Ameisenkönigin – Crowdsourcing, Deliberation und Co im Wissenschaftsjournalismus",
+				"id": "5307",
+				"start": "2013-05-07T08:00:00.000Z",
+				"end": "2013-05-07T09:00:00.000Z"
+			},
+			{
+				"title": "Goldene Zeiten für Entrepreneurial Science Journalism?",
+				"id": "5308",
+				"start": "2013-05-07T09:15:00.000Z",
+				"end": "2013-05-07T10:15:00.000Z"
+			},
+			{
+				"title": "decoding a book – Was ist Buch?",
+				"id": "4655",
+				"start": "2013-05-07T10:30:00.000Z",
+				"end": "2013-05-07T11:30:00.000Z"
+			},
+			{
+				"title": "Browser Fingerprinting: Tracking ohne Spuren zu hinterlassen",
+				"id": "168",
+				"start": "2013-05-07T11:45:00.000Z",
+				"end": "2013-05-07T12:15:00.000Z"
+			},
+			{
+				"title": "DNT: Transatlantic Divide",
+				"id": "1984",
+				"start": "2013-05-07T12:15:00.000Z",
+				"end": "2013-05-07T12:45:00.000Z"
+			},
+			{
+				"title": "Vernetzte Mobilität - Erobert das Digitale die analogen Welten?",
+				"id": "6282",
+				"start": "2013-05-07T13:00:00.000Z",
+				"end": "2013-05-07T14:00:00.000Z"
+			},
+			{
+				"title": "Rückt mal ein Stück! Die Androidinnen kommen!",
+				"id": "1123",
+				"start": "2013-05-07T14:15:00.000Z",
+				"end": "2013-05-07T14:45:00.000Z"
+			},
+			{
+				"title": "Du nennst es Programmieren, ich nenne es Rock 'n' Roll. Über weibliche Programmierer-Netzwerke.",
+				"id": "1805",
+				"start": "2013-05-07T14:45:00.000Z",
+				"end": "2013-05-07T15:15:00.000Z"
+			},
+			{
+				"title": "Wie Fernsehen und Online zusammenwachsen: die SWR-Projekte “Zeit der Helden” und “Tatort+ 2013”",
+				"id": "6182",
+				"start": "2013-05-07T15:30:00.000Z",
+				"end": "2013-05-07T16:30:00.000Z"
+			},
+			{
+				"title": "It's meta, baby: Bücher, Metadaten und Discoverability",
+				"id": "4802",
+				"start": "2013-05-07T16:45:00.000Z",
+				"end": "2013-05-07T17:45:00.000Z"
+			},
+			{
+				"title": "Laptop Yoga",
+				"id": "179",
+				"start": "2013-05-08T08:00:00.000Z",
+				"end": "2013-05-08T09:00:00.000Z"
+			},
+			{
+				"title": "Telefonica – Mobilfunk Inside Out",
+				"id": "5617",
+				"start": "2013-05-08T09:15:00.000Z",
+				"end": "2013-05-08T10:15:00.000Z"
+			},
+			{
+				"title": "Die Vermessung der Social Media-Welt: Multiplikatoren im Netz, ihre Themen und Resonanz im Bundestagswahlkampf.",
+				"id": "6040",
+				"start": "2013-05-08T10:30:00.000Z",
+				"end": "2013-05-08T11:00:00.000Z"
+			},
+			{
+				"title": "The Neighborhood Will Not Be Streamed",
+				"id": "1888",
+				"start": "2013-05-08T11:00:00.000Z",
+				"end": "2013-05-08T11:30:00.000Z"
+			},
+			{
+				"title": "Netzwerkanalyse und politische Öffentlichkeit",
+				"id": "1969",
+				"start": "2013-05-08T11:45:00.000Z",
+				"end": "2013-05-08T12:45:00.000Z"
+			},
+			{
+				"title": "\"Und warum sind da jetzt Brüste?\" - Warum auch die Gamerszene mehr als einen Aufschrei verdient hat",
+				"id": "1561",
+				"start": "2013-05-08T13:00:00.000Z",
+				"end": "2013-05-08T14:00:00.000Z"
+			},
+			{
+				"title": "Die zukünftige Stadt: Sensoren und vernetzte urbane Kommunikation (Einführungsvortrag mit Diskussion)",
+				"id": "1978",
+				"start": "2013-05-08T14:15:00.000Z",
+				"end": "2013-05-08T15:15:00.000Z"
+			}
+		]
+	},
+	{
+		"name": "re:publica",
+		"id": "re:publica",
+		"sessions": [
+			{
+				"title": "#party – Snake'n'Tiger (Friedrich Scherlebeck) @ re:fill-Bar",
+				"id": "7964",
+				"start": "2013-05-06T18:00:00.000Z",
+				"end": "2013-05-06T19:00:00.000Z"
+			},
+			{
+				"title": "#party – BATIDA DJ SET (Ten Cities, Lisbon) @ re:fill-Bar",
+				"id": "7965",
+				"start": "2013-05-06T20:00:00.000Z",
+				"end": "2013-05-06T21:00:00.000Z"
+			},
+			{
+				"title": "Lunch Beat",
+				"id": "1435",
+				"start": "2013-05-07T09:45:00.000Z",
+				"end": "2013-05-07T10:45:00.000Z"
+			},
+			{
+				"title": "#party – Andrea Goetzke & Eric Eitel (#a2n-Soundsystem) @ re:fill-Bar",
+				"id": "7966",
+				"start": "2013-05-07T18:00:00.000Z",
+				"end": "2013-05-07T19:00:00.000Z"
+			},
+			{
+				"title": "#party - Moritz Simon Geist ( Robotic 808 Music Performance) @ Lounge",
+				"id": "8028",
+				"start": "2013-05-08T18:00:00.000Z",
+				"end": "2013-05-08T19:00:00.000Z"
+			},
+			{
+				"title": "#party - DIGITS (Toronto/Berlin)",
+				"id": "8029",
+				"start": "2013-05-08T19:00:00.000Z",
+				"end": "2013-05-08T20:00:00.000Z"
+			}
+		]
+	}
+]
