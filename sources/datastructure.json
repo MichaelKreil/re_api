@@ -18,7 +18,7 @@
 					{
 						"key":"id",
 						"description":"Eindeutige ID der Session",
-						"type":"integer"
+						"type":"string"
 					},
 					{
 						"key":"title",
@@ -254,18 +254,44 @@
 				"substructure":[
 					{
 						"key":"name",
-						"description":"Name der/des Speakerin/Speakers",
+						"description":"Name der Location (z.B. \"stage1\")",
 						"type":"string"
 					},
 					{
 						"key":"id",
-						"description":"Eindeutige ID der/des Speakerin/Speakers.",
+						"description":"ID der Location",
 						"type":"string"
 					},
 					{
-						"key":"url",
-						"description":"Url der/des Speakerin/Speakers auf der re:publica-Seite.",
-						"type":"string"
+						"key":"sessions",
+						"description":"Liste aller Sessions, die in dieser Location stattfinden.",
+						"type":"array",
+						"substructure":{
+							"description":"Rudimentäre Informationen der Session",
+							"type":"object",
+							"substructure":[
+								{
+									"key":"id",
+									"description":"ID der Session",
+									"type":"string"
+								},
+								{
+									"key":"title",
+									"description":"Titel der Session",
+									"type":"string"
+								},
+								{
+									"key":"start",
+									"description":"Startzeit der Session",
+									"type":"datetime"
+								},
+								{
+									"key":"end",
+									"description":"Ende der Session",
+									"type":"datetime"
+								}
+							]
+						}
 					}
 				]
 			}
