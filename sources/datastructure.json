@@ -46,7 +46,7 @@
 								{
 									"key":"id",
 									"description":"Eindeutige ID der/des Speakerin/Speakers",
-									"type":"integer"
+									"type":"string"
 								},
 								{
 									"key":"url",

@@ -38,8 +38,8 @@ exports.create = function (path) {
 				}
 				speakers = speakers.map(function (speaker) {
 					return {
-						id: parseInt(speaker.id, 10),
 						name: speaker['#text']
+						id: ''+parseInt(speaker.id, 10)
 					}
 				});
 
