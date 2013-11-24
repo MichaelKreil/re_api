@@ -12,19 +12,19 @@ var data = importer.create(srcPath+'/rp13');
 
 datastructure.check(data);
 
-exporter.generateTSV(dstPath+'/data/sessions.tsv', data, datastructure, ['sessions']);
-exporter.generateTSV(dstPath+'/data/speakers.tsv', data, datastructure, ['speakers']);
-exporter.generateTSV(dstPath+'/data/locations.tsv', data, datastructure, ['locations']);
+exporter.generateTSV(dstPath+'/data/rp13/sessions.tsv', data, datastructure, ['sessions']);
+exporter.generateTSV(dstPath+'/data/rp13/speakers.tsv', data, datastructure, ['speakers']);
+exporter.generateTSV(dstPath+'/data/rp13/locations.tsv', data, datastructure, ['locations']);
 
-exporter.generateJSON(dstPath+'/data/all.json', data, datastructure);
-exporter.generateJSON(dstPath+'/data/sessions.json', data, datastructure, ['sessions']);
-exporter.generateJSON(dstPath+'/data/speakers.json', data, datastructure, ['speakers']);
-exporter.generateJSON(dstPath+'/data/locations.json', data, datastructure, ['locations']);
+exporter.generateJSON(dstPath+'/data/rp13/all.json', data, datastructure);
+exporter.generateJSON(dstPath+'/data/rp13/sessions.json', data, datastructure, ['sessions']);
+exporter.generateJSON(dstPath+'/data/rp13/speakers.json', data, datastructure, ['speakers']);
+exporter.generateJSON(dstPath+'/data/rp13/locations.json', data, datastructure, ['locations']);
 
-exporter.generateJSONPretty(dstPath+'/data/all.pretty.json', data, datastructure);
-exporter.generateJSONPretty(dstPath+'/data/sessions.pretty.json', data, datastructure, ['sessions']);
-exporter.generateJSONPretty(dstPath+'/data/speakers.pretty.json', data, datastructure, ['speakers']);
-exporter.generateJSONPretty(dstPath+'/data/locations.pretty.json', data, datastructure, ['locations']);
+exporter.generateJSONPretty(dstPath+'/data/rp13/all.pretty.json', data, datastructure);
+exporter.generateJSONPretty(dstPath+'/data/rp13/sessions.pretty.json', data, datastructure, ['sessions']);
+exporter.generateJSONPretty(dstPath+'/data/rp13/speakers.pretty.json', data, datastructure, ['speakers']);
+exporter.generateJSONPretty(dstPath+'/data/rp13/locations.pretty.json', data, datastructure, ['locations']);
 
 //process.exit();
 
