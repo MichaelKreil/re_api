@@ -106,7 +106,7 @@ function validate(object, structure, debug) {
 				console.error('Wert muss ein String (URL) sein. ('+debug+')');
 				return
 			}
-			if (!/^http:\/\/[a-zA-Z0-9\/\.\-]*$/.test(object)) {
+			if (!/^http:\/\/[a-zA-Z0-9\/\.\-\?\=_]*$/.test(object)) {
 				console.error('Wert muss eine korrekt formatierte URL sein. Stattdessen ist es "'+object+'". ('+debug+') ');
 				return
 			}

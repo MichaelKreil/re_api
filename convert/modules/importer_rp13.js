@@ -7,7 +7,9 @@ exports.create = function (path) {
 		locations:[]
 	};
 
-	var locations = {};
+	var lut_sessions = {};
+	var lut_speakers = {};
+	var lut_locations = {};
 
 	var data = JSON.parse(fs.readFileSync(path+'/rp13-schedule.json', 'utf8'));
 	data.schedule.day.forEach(function (day) {
@@ -15,16 +17,16 @@ exports.create = function (path) {
 		
 		day.room.forEach(function (room) {
 			var location;
-			if (locations[room.name] === undefined) {
+			if (lut_locations[room.name] === undefined) {
 				location = {
 					name: room.name,
 					id: room.name,
 					sessions:[]
 				}
-				locations[room.name] = location;
+				lut_locations[room.name] = location;
 				result.locations.push(location);
 			} else {
-				location = locations[room.name];
+				location = lut_locations[room.name];
 			}
 			
 			room.event.forEach(function (event) {
@@ -56,11 +58,15 @@ exports.create = function (path) {
 					language: event.language,
 					experiencelevel: event.experience_level,
 					track: event.track,
-					speakers: speakers
+					speakers: speakers,
+					recordings: {},
+					slides: {}
 				};
 
 				session.end = new Date(session.start.getTime() + session.duration*60000);
+
 				result.sessions.push(session);
+				lut_sessions[session.id] = session;
 
 				location.sessions.push({
 					title:session.title,
@@ -71,8 +77,6 @@ exports.create = function (path) {
 			});
 		});
 	});
-
-	var speakers = {};
 
 	result.speakers = data.schedule.speakers.speaker.map(function (speaker) {
 		var obj = {
@@ -85,13 +89,13 @@ exports.create = function (path) {
 		if (speaker.biography) obj.biography = speaker.biography;
 		if (speaker.organization) obj.organization = speaker.organization;
 		if (speaker.position) obj.position = speaker.position;
-		speakers[obj.id] = obj;
+		lut_speakers[obj.id] = obj;
 		return obj;
 	});
 
 	result.sessions.forEach(function (session) {
 		session.speakers.forEach(function (speaker) {
-			speaker.name = speakers[speaker.id].name;
+			speaker.name = lut_speakers[speaker.id].name;
 		})
 	});
 
@@ -100,6 +104,19 @@ exports.create = function (path) {
 			return a.start - b.start;
 		});
 	});
+
+	var videos = JSON.parse(fs.readFileSync(path+'/knownvideos.json', 'utf8'));
+	Object.keys(videos).forEach(function (key) {
+		var video = videos[key];
+		if (video.eventId !== undefined) {
+			var session = lut_sessions[''+video.eventId];
+			switch (video.video_url.substr(0,16)) {
+				case 'http://youtube.c': session.recordings.youtube = video.video_url; break;
+				case 'http://vimeo.com': session.recordings.vimeo = video.video_url; break;
+				default: console.error('Unknown Video_url "'+video.video_url.substr(0,16)+'"');
+			}
+		}
+	})
 
 	return result;
 }

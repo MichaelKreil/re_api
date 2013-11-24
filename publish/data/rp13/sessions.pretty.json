@@ -34,6 +34,10 @@
 				"name": "Johnny Haeusler"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=iWlC59PSYhM"
+		},
+		"slides": {},
 		"end": "2013-05-06T09:00:00.000Z"
 	},
 	{
@@ -59,6 +63,10 @@
 				"name": "Erik Hersman"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=1AYsmc4Kstw"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:00:00.000Z"
 	},
 	{
@@ -84,6 +92,10 @@
 				"name": "Anja Ebersbach"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=LevDWE-_WJs"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:15:00.000Z"
 	},
 	{
@@ -109,6 +121,10 @@
 				"name": "Gunter Dueck"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=uPU1y9V3jL4"
+		},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -134,6 +150,10 @@
 				"name": "Christoph Meinel"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=j4Pa3RCBC2s"
+		},
+		"slides": {},
 		"end": "2013-05-06T11:30:00.000Z"
 	},
 	{
@@ -159,6 +179,10 @@
 				"name": "Birgitta Jónsdóttir"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=wdnHbeWlgV4"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -184,6 +208,10 @@
 				"name": "Wolf Lotter"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=kO4P5yj72IA"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:45:00.000Z"
 	},
 	{
@@ -209,6 +237,10 @@
 				"name": "Deanna Zandt"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=beArpOK5Ov0"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:15:00.000Z"
 	},
 	{
@@ -234,6 +266,10 @@
 				"name": "Laurie Penny"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ELw3PQOSgd0"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -259,6 +295,10 @@
 				"name": "Juergen Erbeldinger"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=IaDDS01xOoU"
+		},
+		"slides": {},
 		"end": "2013-05-06T14:00:00.000Z"
 	},
 	{
@@ -284,6 +324,10 @@
 				"name": "Mitchell Baker"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=l8yCIwi_Owg"
+		},
+		"slides": {},
 		"end": "2013-05-06T14:30:00.000Z"
 	},
 	{
@@ -313,6 +357,10 @@
 				"name": "Ulf Buermeyer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=1gSTwaYVERo"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -338,6 +386,8 @@
 				"name": "Gunter Dueck"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:15:00.000Z"
 	},
 	{
@@ -367,6 +417,10 @@
 				"name": "Timo Vuorensola"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=qB4tQW02AGQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:45:00.000Z"
 	},
 	{
@@ -396,6 +450,10 @@
 				"name": "Ingke Weimert"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=3Fxj-yU1TbQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T16:30:00.000Z"
 	},
 	{
@@ -425,6 +483,10 @@
 				"name": "Johnny Haeusler"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=thNBr3XmTuY"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -450,6 +512,10 @@
 				"name": "Sascha Lobo"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Raas1BhSIbs"
+		},
+		"slides": {},
 		"end": "2013-05-06T18:45:00.000Z"
 	},
 	{
@@ -479,6 +545,10 @@
 				"name": "Lorenz Matzat"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=mSXy-H13DJM"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:00:00.000Z"
 	},
 	{
@@ -508,6 +578,10 @@
 				"name": "Stefan Wehrmeyer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=QBSNr6UXIJg"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:45:00.000Z"
 	},
 	{
@@ -533,6 +607,10 @@
 				"name": "Michael Kreil"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=dJ9C7UPGJ-o"
+		},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -570,6 +648,10 @@
 				"name": "Yan Minagawa"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=18xQRtdrJhQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:00:00.000Z"
 	},
 	{
@@ -599,6 +681,10 @@
 				"name": "Daniel Dietrich"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=NpHnuFVL2ug"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -624,6 +710,10 @@
 				"name": "Joe McNamee"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=REP4eqvwkR0"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:15:00.000Z"
 	},
 	{
@@ -653,6 +743,10 @@
 				"name": "Jérémie Zimmermann"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=0Gi-MT8M0lE"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -686,6 +780,10 @@
 				"name": "Barbara Fischer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=CsdGJc74YiY"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -719,6 +817,10 @@
 				"name": "Ralf Stockmann"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=oOcOTE2IP34"
+		},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -752,6 +854,10 @@
 				"name": "Dirk Franke"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=5iSAl_krauA"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -793,6 +899,10 @@
 				"name": "Anja Gottschling"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=5dn3mwS6ZzY"
+		},
+		"slides": {},
 		"end": "2013-05-06T18:45:00.000Z"
 	},
 	{
@@ -818,6 +928,8 @@
 				"name": "Harry Do"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T09:30:00.000Z"
 	},
 	{
@@ -847,6 +959,8 @@
 				"name": "Guy Bachar"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -872,6 +986,8 @@
 				"name": "Maximilian Martin"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T14:00:00.000Z"
 	},
 	{
@@ -897,6 +1013,8 @@
 				"name": "Luca Hammer"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -922,6 +1040,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:30:00.000Z"
 	},
 	{
@@ -947,6 +1067,10 @@
 				"name": "Betsy Hoover"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=nQLdaFBIDwc"
+		},
+		"slides": {},
 		"end": "2013-05-06T09:45:00.000Z"
 	},
 	{
@@ -972,6 +1096,10 @@
 				"name": "Ben Scott"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=OJt_quKiMgw"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:45:00.000Z"
 	},
 	{
@@ -1009,6 +1137,10 @@
 				"name": "Stina Backer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=IXL95HSe0Yw"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -1038,6 +1170,10 @@
 				"name": "Jillian York"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Nnezb00EsaQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:15:00.000Z"
 	},
 	{
@@ -1063,6 +1199,10 @@
 				"name": "Heba Amin"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=lJrL-rrGg1g"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -1092,6 +1232,10 @@
 				"name": "Monis Bukhari"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=8P0GVMA7dfs"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -1117,6 +1261,10 @@
 				"name": "Mark Rendeiro"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=uPEklgZSE00"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:45:00.000Z"
 	},
 	{
@@ -1142,6 +1290,10 @@
 				"name": "Sascha Funk"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=oMDWMPtu7E8"
+		},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -1167,6 +1319,10 @@
 				"name": "Stine Eckert"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=YMGjfr3sAuo"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:00:00.000Z"
 	},
 	{
@@ -1192,6 +1348,10 @@
 				"name": "Zahi Alawi"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=WTmpwt4sV4c"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -1225,6 +1385,10 @@
 				"name": "Joyce Nyairo"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=LDvzgyhzWkY"
+		},
+		"slides": {},
 		"end": "2013-05-06T18:45:00.000Z"
 	},
 	{
@@ -1250,6 +1414,10 @@
 				"name": "Tomas Caspers"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=dFau0avDBWU"
+		},
+		"slides": {},
 		"end": "2013-05-06T10:30:00.000Z"
 	},
 	{
@@ -1287,6 +1455,10 @@
 				"name": "Tina Gadow"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=DUuxnnvWnWQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T11:30:00.000Z"
 	},
 	{
@@ -1328,6 +1500,10 @@
 				"name": "Sebastian Deterding"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=5N5dgagk0Dk"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -1361,6 +1537,10 @@
 				"name": "Stephan Noller"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=G3qhsyvA9go"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -1402,6 +1582,10 @@
 				"name": "Jeannine Michaelsen"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=cH__w7L7FJI"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -1427,6 +1611,10 @@
 				"name": "Elisabeth Rank"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=z3uu3sxRyHA"
+		},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -1456,6 +1644,10 @@
 				"name": "Alexander Sander"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=10s_DUG4q8U"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:00:00.000Z"
 	},
 	{
@@ -1481,6 +1673,10 @@
 				"name": "Raegan MacDonald"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=lHckB_RQG7o"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -1510,6 +1706,8 @@
 				"name": "David Ohrndorf"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -1539,6 +1737,8 @@
 				"name": "Henrik Flor"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -1564,6 +1764,8 @@
 				"name": "Yussi Pick"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -1589,6 +1791,8 @@
 				"name": "Josh Miles"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -1630,6 +1834,8 @@
 				"name": "Verena Delius"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -1663,6 +1869,8 @@
 				"name": "Boris Borchert"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -1708,6 +1916,8 @@
 				"name": "Sebastian Ballweg"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -1733,6 +1943,8 @@
 				"name": "Jay Fajardo"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T14:30:00.000Z"
 	},
 	{
@@ -1758,6 +1970,8 @@
 				"name": "Daniela B. Silva"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -1787,6 +2001,8 @@
 				"name": "Jörgen van der Sloot"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -1824,6 +2040,8 @@
 				"name": "Christian Nuernbergk"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -1853,6 +2071,8 @@
 				"name": "Jöran Muuß-Merholz"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T18:45:00.000Z"
 	},
 	{
@@ -1882,6 +2102,8 @@
 				"name": "Ralf Appelt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -1907,6 +2129,8 @@
 				"name": "Brigitte Alice Radl"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -1932,6 +2156,8 @@
 				"name": "Fabian Schuttenberg"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -1965,6 +2191,8 @@
 				"name": "Michael Rouba"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -2002,6 +2230,8 @@
 				"name": "Krystian Woznicki"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -2031,6 +2261,8 @@
 				"name": "Sabria David"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -2056,6 +2288,8 @@
 				"name": "Felix Kolb"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -2081,6 +2315,8 @@
 				"name": "Kathrin Voss"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -2106,6 +2342,8 @@
 				"name": "Jona Hölderle"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -2126,6 +2364,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -2151,6 +2391,10 @@
 				"name": "Yoani Sánchez"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=VH96W-Iav60"
+		},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -2180,6 +2424,10 @@
 				"name": "Katharina Meyer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=YAh4Jr5dJcQ"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:00:00.000Z"
 	},
 	{
@@ -2205,6 +2453,10 @@
 				"name": "Kathrin Passig"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=doPGYWNT-3s"
+		},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -2234,6 +2486,10 @@
 				"name": "Markus Hündgen"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=J7KSmReUUlE"
+		},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -2279,6 +2535,10 @@
 				"name": "Amy Herzstark"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=n54c2LcIp9Q"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -2304,6 +2564,10 @@
 				"name": "Wolf Lotter"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=25AbnDLrDO4"
+		},
+		"slides": {},
 		"end": "2013-05-06T15:30:00.000Z"
 	},
 	{
@@ -2333,6 +2597,10 @@
 				"name": "Diedrich Diederichsen"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Jl4IbEbzte8"
+		},
+		"slides": {},
 		"end": "2013-05-06T16:00:00.000Z"
 	},
 	{
@@ -2366,6 +2634,10 @@
 				"name": "Lisa Rienermann"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=rf9C4Prjkmc"
+		},
+		"slides": {},
 		"end": "2013-05-06T17:00:00.000Z"
 	},
 	{
@@ -2391,6 +2663,8 @@
 				"name": "Mark Graham"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -2444,6 +2718,8 @@
 				"name": "Michael Szymanski"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T10:45:00.000Z"
 	},
 	{
@@ -2469,6 +2745,8 @@
 				"name": "Andriankoto Harinjaka Ratozamanana"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T10:45:00.000Z"
 	},
 	{
@@ -2494,6 +2772,8 @@
 				"name": "Lukonga Lindunda"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:00:00.000Z"
 	},
 	{
@@ -2519,6 +2799,8 @@
 				"name": "Brian Ndyaguma"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:15:00.000Z"
 	},
 	{
@@ -2544,6 +2826,8 @@
 				"name": "Victoria Wenzelmann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T11:45:00.000Z"
 	},
 	{
@@ -2569,6 +2853,8 @@
 				"name": "Simon Höher"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T12:30:00.000Z"
 	},
 	{
@@ -2594,6 +2880,8 @@
 				"name": "Rachel Gichinga "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:15:00.000Z"
 	},
 	{
@@ -2619,6 +2907,8 @@
 				"name": "Teemu Ropponen"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -2644,6 +2934,8 @@
 				"name": "Jay Cousins"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T14:30:00.000Z"
 	},
 	{
@@ -2669,6 +2961,8 @@
 				"name": "Al Banda"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:45:00.000Z"
 	},
 	{
@@ -2698,6 +2992,8 @@
 				"name": "Oliver Petzoldt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -2727,6 +3023,8 @@
 				"name": "Arman Riahi"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T13:45:00.000Z"
 	},
 	{
@@ -2752,6 +3050,8 @@
 				"name": "Sabine Frank"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T15:00:00.000Z"
 	},
 	{
@@ -2777,6 +3077,8 @@
 				"name": "Hannes Jähnert"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T16:15:00.000Z"
 	},
 	{
@@ -2814,6 +3116,8 @@
 				"name": "Kai Pahl"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:00:00.000Z"
 	},
 	{
@@ -2839,6 +3143,8 @@
 				"name": "Hendrik Kalb"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T17:30:00.000Z"
 	},
 	{
@@ -2859,6 +3165,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:publica",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T19:00:00.000Z"
 	},
 	{
@@ -2884,6 +3192,8 @@
 				"name": "Pedro Coquenão"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-06T21:00:00.000Z"
 	},
 	{
@@ -2909,6 +3219,10 @@
 				"name": "Tim Pritlove"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=CIBN-e-aja8"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -2934,6 +3248,10 @@
 				"name": "Markus Beckedahl"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Rb7c9sxMk2Q"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -2959,6 +3277,10 @@
 				"name": "R. Trebor Scholz"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=52CqKIR0rVM"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -2992,6 +3314,10 @@
 				"name": "Markus Beckedahl"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=MQAK38KCjfY"
+		},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -3021,6 +3347,10 @@
 				"name": "Johnny Haeusler"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=PDYEl62g1b8"
+		},
+		"slides": {},
 		"end": "2013-05-07T13:30:00.000Z"
 	},
 	{
@@ -3046,6 +3376,10 @@
 				"name": "Manuela Schauerhammer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=bQGURr6Vjzg"
+		},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -3071,6 +3405,10 @@
 				"name": "lidi brouwer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=dUzqvMQ_9aY"
+		},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -3108,6 +3446,10 @@
 				"name": "Leonhard Dobusch"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Uq-bwzIQ4Wg"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -3137,6 +3479,10 @@
 				"name": "Neil Harbisson"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=gAQQtamyO1A"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -3170,6 +3516,10 @@
 				"name": "Daniel Fiene"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=8D8g8Xol6bg"
+		},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -3195,6 +3545,10 @@
 				"name": "Manouchehr Shamsrizi"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Z0EfKzKi0So"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -3220,6 +3574,10 @@
 				"name": "Friedrich von Borries"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=azD5EUy8HkI"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:45:00.000Z"
 	},
 	{
@@ -3245,6 +3603,10 @@
 				"name": "Francesco Lapenta"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=wJYtHBD0XbI"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -3282,6 +3644,10 @@
 				"name": "Ruth Schöllhammer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=JZI3peYWGUU"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -3319,6 +3685,10 @@
 				"name": "Cornelius Puschmann"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=-9d0KM1I0aw"
+		},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -3356,6 +3726,10 @@
 				"name": "Henning Krause"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ceARb5FRy8A"
+		},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -3385,6 +3759,8 @@
 				"name": "Kiki Haas"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:45:00.000Z"
 	},
 	{
@@ -3414,6 +3790,10 @@
 				"name": "Jochen Mai"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=i-LkQdVpiSI"
+		},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -3443,6 +3823,10 @@
 				"name": "Robert Böhme"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=tlcYQOVwYKg"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -3472,6 +3856,10 @@
 				"name": "Henning Krieg"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=BEIOcw33IH8"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -3492,6 +3880,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -3512,6 +3902,10 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=FCduBmaWpkM"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -3532,6 +3926,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -3552,6 +3948,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -3572,6 +3970,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -3592,6 +3992,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -3617,6 +4019,8 @@
 				"name": "Marco Trovatello"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -3650,6 +4054,10 @@
 				"name": "Anne Roth"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=HmufQU5GDGU"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -3691,6 +4099,10 @@
 				"name": "Simon Schlauri"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=9Oi4uhdIGFE"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -3732,6 +4144,10 @@
 				"name": "Ben Wagner"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=A_AE838UFlg"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -3757,6 +4173,10 @@
 				"name": "Marco Maas"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=tA-E_38oWLI"
+		},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -3782,6 +4202,10 @@
 				"name": "Moritz Simon Geist"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=fhNKKU5k9TE"
+		},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -3823,6 +4247,10 @@
 				"name": "Tim Otto"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=7GTh_ppeudU"
+		},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -3848,6 +4276,10 @@
 				"name": "Peter Kirn"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Fr_9_6AyCP4"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:00:00.000Z"
 	},
 	{
@@ -3877,6 +4309,10 @@
 				"name": "Oke Göttlich"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=LBleM-R4yoQ"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -3914,6 +4350,10 @@
 				"name": "Marie Heimer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=aCg4Vycf8D4"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -3959,6 +4399,10 @@
 				"name": "Marjam Fels"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=DTiK3slZTiE"
+		},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -3996,6 +4440,10 @@
 				"name": "Katja Schweitzberger"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=KzKhyoCk9dI"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -4021,6 +4469,10 @@
 				"name": "Johannes Kleske"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=xPL0vKClCxM"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -4050,6 +4502,10 @@
 				"name": "Marek Tuszynski"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=DQBtc_szJh0"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:00:00.000Z"
 	},
 	{
@@ -4079,6 +4535,10 @@
 				"name": "Friedrich Lindenberg"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=YMVkmLNCbIk"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -4108,6 +4568,10 @@
 				"name": "Joel Dullroy"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Y4_UADsQofU"
+		},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -4141,6 +4605,10 @@
 				"name": "Julian Tadesse"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=NPJRK8UUFBg"
+		},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -4174,6 +4642,10 @@
 				"name": "Alice Lanzke"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=rAcxxj7ADsk"
+		},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -4199,6 +4671,10 @@
 				"name": "Joachim Vranken"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=IIIz7HZWAHY"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -4224,6 +4700,10 @@
 				"name": "Daniel Decker"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=dQusZ1FsJUk"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:15:00.000Z"
 	},
 	{
@@ -4249,6 +4729,10 @@
 				"name": "Caspar Clemens Mierau"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=IlAAX_sfBzg"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -4278,6 +4762,10 @@
 				"name": "Markus Herrmann"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ZHeTHnTD6eU"
+		},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -4303,6 +4791,10 @@
 				"name": "Teresa Bücker"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=MpiatFsLE9w"
+		},
+		"slides": {},
 		"end": "2013-05-07T08:30:00.000Z"
 	},
 	{
@@ -4328,6 +4820,10 @@
 				"name": "Jutta Allmendinger"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=yNLR2ykS0Tc"
+		},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -4353,6 +4849,10 @@
 				"name": "Carolina Ödman-Govender"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=DQmfFWQBIHw"
+		},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -4378,6 +4878,10 @@
 				"name": "Andrew Rasiej"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=-_oXpxrjLrc"
+		},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -4407,6 +4911,10 @@
 				"name": "Martin Randelhoff"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=PuTY2qZtVvM"
+		},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -4436,6 +4944,10 @@
 				"name": "Moon Ribas"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=6hUg48vf0QI"
+		},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -4461,6 +4973,10 @@
 				"name": "Kate Darling"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=gozSLhUwi48"
+		},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -4486,6 +5002,10 @@
 				"name": "Yoani Sánchez"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=EcsaUnQgvhM"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -4511,6 +5031,10 @@
 				"name": "Kate Miltner"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=wG_EbEUboxo"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -4560,6 +5084,10 @@
 				"name": "Tilo Jung"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=dH2ftI-t7WM"
+		},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -4601,6 +5129,8 @@
 				"name": "Patrick Klügel"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -4638,6 +5168,8 @@
 				"name": "Sebastian Turner"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -4663,6 +5195,8 @@
 				"name": "Wibke Ladwig"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -4688,6 +5222,8 @@
 				"name": "Henning Tillmann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:15:00.000Z"
 	},
 	{
@@ -4713,6 +5249,8 @@
 				"name": "Walter van Holst"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -4738,6 +5276,8 @@
 				"name": "Alexander Mankowsky"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -4771,6 +5311,8 @@
 				"name": "Renate Hermanns"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:45:00.000Z"
 	},
 	{
@@ -4804,6 +5346,8 @@
 				"name": "theresa heilmann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -4841,6 +5385,8 @@
 				"name": "Jürgen Ebenau"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -4886,6 +5432,8 @@
 				"name": "Henrik Berggren"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -4911,6 +5459,8 @@
 				"name": "Catherine Barba"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -4952,6 +5502,8 @@
 				"name": "Ulf Brandes"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -4981,6 +5533,8 @@
 				"name": "Mark Kaigwa"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -5034,6 +5588,8 @@
 				"name": "Florian Hofmann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -5071,6 +5627,8 @@
 				"name": "Sebastian Vorberg "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -5096,6 +5654,8 @@
 				"name": "Nishant Shah"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -5121,6 +5681,8 @@
 				"name": "Magdalena Reiter"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T16:00:00.000Z"
 	},
 	{
@@ -5146,6 +5708,10 @@
 				"name": "Mey Lean Kronemann"
 			}
 		],
+		"recordings": {
+			"vimeo": "http://vimeo.com/66688236"
+		},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -5175,6 +5741,10 @@
 				"name": "Agnes Lison"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=-s5WvYQEr0Y"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -5204,6 +5774,8 @@
 				"name": "Julian Finn"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -5229,6 +5801,8 @@
 				"name": "Adam Thomas"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T09:00:00.000Z"
 	},
 	{
@@ -5254,6 +5828,8 @@
 				"name": "Loren Treisman"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T09:45:00.000Z"
 	},
 	{
@@ -5279,6 +5855,8 @@
 				"name": "Michael Szymanski"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -5316,6 +5894,8 @@
 				"name": "Markos Lemma"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -5341,6 +5921,8 @@
 				"name": "Jay Cousins"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:00:00.000Z"
 	},
 	{
@@ -5370,6 +5952,8 @@
 				"name": "Stefania Druga"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:30:00.000Z"
 	},
 	{
@@ -5395,6 +5979,8 @@
 				"name": "Felipe Fonseca"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T13:30:00.000Z"
 	},
 	{
@@ -5440,6 +6026,8 @@
 				"name": "Stephen Kovats"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T15:15:00.000Z"
 	},
 	{
@@ -5465,6 +6053,8 @@
 				"name": "Jay Cousins"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T16:30:00.000Z"
 	},
 	{
@@ -5485,6 +6075,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -5505,6 +6097,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -5525,6 +6119,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -5545,6 +6141,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -5570,6 +6168,8 @@
 				"name": "Gregor Sedlag"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:15:00.000Z"
 	},
 	{
@@ -5595,6 +6195,10 @@
 				"name": "Constantin Alexander"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=6Pu5agqAy_Q"
+		},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -5615,6 +6219,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -5635,6 +6241,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -5655,6 +6263,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -5675,6 +6285,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -5700,6 +6312,8 @@
 				"name": "Faith Bosworth "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:15:00.000Z"
 	},
 	{
@@ -5725,6 +6339,8 @@
 				"name": "Ninia Binias"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -5745,6 +6361,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -5765,6 +6383,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:30:00.000Z"
 	},
 	{
@@ -5785,6 +6405,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -5805,6 +6427,8 @@
 		"experiencelevel": "Beginner",
 		"track": "re:campaign",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -5830,6 +6454,8 @@
 				"name": "Michał Woźniak"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T17:45:00.000Z"
 	},
 	{
@@ -5855,6 +6481,8 @@
 				"name": "Ele Jansen"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:15:00.000Z"
 	},
 	{
@@ -5880,6 +6508,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T11:00:00.000Z"
 	},
 	{
@@ -5905,6 +6535,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T12:45:00.000Z"
 	},
 	{
@@ -5930,6 +6562,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T14:00:00.000Z"
 	},
 	{
@@ -5959,6 +6593,8 @@
 				"name": "Dan Weigl"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T10:45:00.000Z"
 	},
 	{
@@ -5988,6 +6624,8 @@
 				"name": "Eric Eitel"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-07T19:00:00.000Z"
 	},
 	{
@@ -6029,6 +6667,10 @@
 				"name": "Tanja Haeusler"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Ibb5KE6Cl_w"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -6054,6 +6696,10 @@
 				"name": "Keren Elazari"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=gNIzKFTQLog"
+		},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -6079,6 +6725,10 @@
 				"name": "Lisa Ma"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=j-4DpaQdsFs"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -6104,6 +6754,10 @@
 				"name": "Lothar Müller"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=VyiD0iPhMec"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -6149,6 +6803,10 @@
 				"name": "Susanne Dehmel"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=_bK_94oeN4o"
+		},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -6174,6 +6832,10 @@
 				"name": "Cory Doctorow"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=uWqx_1tDyqE"
+		},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -6199,6 +6861,10 @@
 				"name": "Anne Wizorek"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=B3c4UMnX7ig"
+		},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -6219,6 +6885,10 @@
 		"experiencelevel": "Beginner",
 		"track": "culture",
 		"speakers": [],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=29tk6vQXV64"
+		},
+		"slides": {},
 		"end": "2013-05-08T16:00:00.000Z"
 	},
 	{
@@ -6256,6 +6926,10 @@
 				"name": "Andreas Gebhard"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ag3my5UWuT8"
+		},
+		"slides": {},
 		"end": "2013-05-08T16:30:00.000Z"
 	},
 	{
@@ -6281,6 +6955,10 @@
 				"name": "Volker Grassmuck"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=naGvgXzxlvc"
+		},
+		"slides": {},
 		"end": "2013-05-08T08:30:00.000Z"
 	},
 	{
@@ -6306,6 +6984,10 @@
 				"name": "Lorenz Lorenz-Meyer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=OpzCViwvH1k"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -6339,6 +7021,10 @@
 				"name": "Michael Kreil"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=vWerZQFj4Xc"
+		},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -6380,6 +7066,10 @@
 				"name": "Geraldine de Bastion"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=bddyZSOlkAo"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -6413,6 +7103,10 @@
 				"name": "Wael Fakharany"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Vlas5oZ88MU"
+		},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -6438,6 +7132,10 @@
 				"name": "Daniel Bröckerhoff"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=g7jKhi5dp3s"
+		},
+		"slides": {},
 		"end": "2013-05-08T13:30:00.000Z"
 	},
 	{
@@ -6467,6 +7165,8 @@
 				"name": "Simone Stoffers"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -6508,6 +7208,10 @@
 				"name": "Steffen Voß"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=9Nvy9sHunZU"
+		},
+		"slides": {},
 		"end": "2013-05-08T14:45:00.000Z"
 	},
 	{
@@ -6541,6 +7245,10 @@
 				"name": "Marlene Vogel"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=_e8Ztolx_Vw"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -6574,6 +7282,10 @@
 				"name": "Shahidul Alam"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=4NsDr54-lKA"
+		},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -6599,6 +7311,10 @@
 				"name": "Felix Schwenzel"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ZTejUqHLQXE"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -6628,6 +7344,10 @@
 				"name": "Sascha Stoltenow"
 			}
 		],
+		"recordings": {
+			"vimeo": "http://vimeo.com/65905002"
+		},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -6657,6 +7377,10 @@
 				"name": "Jörn Loviscach"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=54IYXPW_IJY"
+		},
+		"slides": {},
 		"end": "2013-05-08T13:30:00.000Z"
 	},
 	{
@@ -6682,6 +7406,10 @@
 				"name": "Jan Philipp Schmidt"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=KD_N0mJ7qx0"
+		},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -6719,6 +7447,10 @@
 				"name": "Friedemann Karig"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=5zcy_NB1mxs"
+		},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -6744,6 +7476,8 @@
 				"name": "Annina Luzie Schmid"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -6773,6 +7507,8 @@
 				"name": "Andreas Thies"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -6802,6 +7538,8 @@
 				"name": "Christoph Neuberger"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -6835,6 +7573,8 @@
 				"name": "Jennifer Schubert"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -6860,6 +7600,8 @@
 				"name": "Stefan Heidenreich"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -6885,6 +7627,8 @@
 				"name": "Kirsten Gross"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -6910,6 +7654,8 @@
 				"name": "Marc Altenburg"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -6939,6 +7685,10 @@
 				"name": "Michael Kreil"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ZG4FawUtYPA"
+		},
+		"slides": {},
 		"end": "2013-05-08T08:30:00.000Z"
 	},
 	{
@@ -6964,6 +7714,8 @@
 				"name": "Klaus Kusanowsky"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -6989,6 +7741,8 @@
 				"name": "Lisa Rosa"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:45:00.000Z"
 	},
 	{
@@ -7014,6 +7768,8 @@
 				"name": "Jöran Muuß-Merholz"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -7043,6 +7799,8 @@
 				"name": "Michel Schröder"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -7072,6 +7830,8 @@
 				"name": "Dirk Primbs"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -7097,6 +7857,8 @@
 				"name": "Christoph Deeg"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:15:00.000Z"
 	},
 	{
@@ -7138,6 +7900,8 @@
 				"name": "Elias Barrasch"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -7167,6 +7931,8 @@
 				"name": "Robert Bauer"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -7200,6 +7966,8 @@
 				"name": "Heinz Wittenbrink"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -7241,6 +8009,10 @@
 				"name": "Claudio Guarnieri"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=M3MjlT7zmeI"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -7270,6 +8042,10 @@
 				"name": "Christian Katzenbach"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=5f_JiFfI9Ts"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:45:00.000Z"
 	},
 	{
@@ -7303,6 +8079,10 @@
 				"name": "Valie Djordjevic"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=kNSXrqRxJjw"
+		},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -7328,6 +8108,10 @@
 				"name": "Joerg Heidrich"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=ndHqyprTNDk"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -7353,6 +8137,10 @@
 				"name": "Mathias Schindler"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=yVnDp6zKGpk"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -7382,6 +8170,10 @@
 				"name": "Hisham Almiraat"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=LRXgm3L6EIk"
+		},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -7411,6 +8203,10 @@
 				"name": "Snibeti Snab"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=41ZwNdqBcaU"
+		},
+		"slides": {},
 		"end": "2013-05-08T13:30:00.000Z"
 	},
 	{
@@ -7436,6 +8232,10 @@
 				"name": "Marcus Brown"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Qr2pbVucL6o"
+		},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -7461,6 +8261,10 @@
 				"name": "Thomas Andrezak"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=v3s76ho_boo"
+		},
+		"slides": {},
 		"end": "2013-05-08T14:45:00.000Z"
 	},
 	{
@@ -7486,6 +8290,10 @@
 				"name": "Matthias Bauer"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=uQX18jZP8u0"
+		},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -7506,6 +8314,8 @@
 		"experiencelevel": "Beginner",
 		"track": "science & technology",
 		"speakers": [],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -7531,6 +8341,8 @@
 				"name": "Jay Fajardo"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -7556,6 +8368,8 @@
 				"name": "Johnpaul Barretto"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:15:00.000Z"
 	},
 	{
@@ -7581,6 +8395,8 @@
 				"name": "Joeri Poesen"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -7610,6 +8426,8 @@
 				"name": "James Clardy"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -7635,6 +8453,8 @@
 				"name": "Jay Cousins"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -7664,6 +8484,8 @@
 				"name": "Björn Weigelt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -7689,6 +8511,8 @@
 				"name": "Alexander Sander"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:45:00.000Z"
 	},
 	{
@@ -7714,6 +8538,8 @@
 				"name": "Max Schrems"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -7739,6 +8565,8 @@
 				"name": "Mey Lean Kronemann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -7764,6 +8592,8 @@
 				"name": "Daniela Kuka"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -7793,6 +8623,8 @@
 				"name": "Sophia New"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:45:00.000Z"
 	},
 	{
@@ -7822,6 +8654,8 @@
 				"name": "Joerg Blumtritt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -7847,6 +8681,8 @@
 				"name": "Sergi Martinez"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -7872,6 +8708,8 @@
 				"name": "Katalin Gallyas"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:15:00.000Z"
 	},
 	{
@@ -7897,6 +8735,8 @@
 				"name": "Ksenia Ermoshina"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -7930,6 +8770,8 @@
 				"name": "Michael Hörz"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -7959,6 +8801,8 @@
 				"name": "Joerg Blumtritt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:45:00.000Z"
 	},
 	{
@@ -7984,6 +8828,8 @@
 				"name": "Marian Steinbach"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -8029,6 +8875,10 @@
 				"name": "Annett Meiritz"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=3ON3cSuW4Bs"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -8054,6 +8904,10 @@
 				"name": "Esteve Almirall"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=1u1x3d8fVPE"
+		},
+		"slides": {},
 		"end": "2013-05-08T09:45:00.000Z"
 	},
 	{
@@ -8079,6 +8933,10 @@
 				"name": "Carles Ferreiro"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=aI6ir37Iaq0"
+		},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -8104,6 +8962,10 @@
 				"name": "Frank Karlitschek"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=CwhKl0qvcfA"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -8129,6 +8991,10 @@
 				"name": "Nick Jennings"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=KU4PZK48-dg"
+		},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -8158,6 +9024,10 @@
 				"name": "Jan-Uwe Fitz"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=Kc2kwO-jf7c"
+		},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -8187,6 +9057,10 @@
 				"name": "Bianca Praetorius"
 			}
 		],
+		"recordings": {
+			"youtube": "http://youtube.com/watch?v=fi5Vbvj7HzE"
+		},
+		"slides": {},
 		"end": "2013-05-08T13:30:00.000Z"
 	},
 	{
@@ -8212,6 +9086,8 @@
 				"name": "Thomas Schmidt"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -8237,6 +9113,8 @@
 				"name": "Alexander Schachinger"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:45:00.000Z"
 	},
 	{
@@ -8266,6 +9144,8 @@
 				"name": "Daniel Knapp"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -8291,6 +9171,8 @@
 				"name": "Kai Sostmann"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -8320,6 +9202,8 @@
 				"name": "Stephanie Hankey"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -8361,6 +9245,8 @@
 				"name": "Ellen Vorac"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T09:00:00.000Z"
 	},
 	{
@@ -8398,6 +9284,8 @@
 				"name": "Holger Niederberger"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -8439,6 +9327,8 @@
 				"name": "Erwin Aljukic"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:30:00.000Z"
 	},
 	{
@@ -8464,6 +9354,8 @@
 				"name": "Christopher Buschow"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:15:00.000Z"
 	},
 	{
@@ -8497,6 +9389,8 @@
 				"name": "Alexander M. Turek"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:45:00.000Z"
 	},
 	{
@@ -8526,6 +9420,8 @@
 				"name": "Louisa Heinrich"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T14:00:00.000Z"
 	},
 	{
@@ -8551,6 +9447,8 @@
 				"name": "Julia Kloiber"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T10:15:00.000Z"
 	},
 	{
@@ -8576,6 +9474,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T11:00:00.000Z"
 	},
 	{
@@ -8601,6 +9501,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T12:15:00.000Z"
 	},
 	{
@@ -8626,6 +9528,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T13:30:00.000Z"
 	},
 	{
@@ -8651,6 +9555,8 @@
 				"name": "newthinking "
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T15:15:00.000Z"
 	},
 	{
@@ -8676,6 +9582,8 @@
 				"name": "Moritz Simon Geist"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T19:00:00.000Z"
 	},
 	{
@@ -8701,6 +9609,8 @@
 				"name": "Alt Altman"
 			}
 		],
+		"recordings": {},
+		"slides": {},
 		"end": "2013-05-08T20:00:00.000Z"
 	}
 ]
