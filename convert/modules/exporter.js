@@ -171,7 +171,7 @@ exports.generateDocu = function (structure, filename, template) {
 	fs.writeFileSync(filename, html, 'utf8')
 }
 
-function formatDate(d) {
+function formatExcelDate(d) {
 	function pad(n) { return n<10 ? '0'+n : n }
 
 	var t =
@@ -180,7 +180,7 @@ function formatDate(d) {
 		+ d.getUTCFullYear()+' '
 		+ pad(d.getUTCHours())+':'
 		+ pad(d.getUTCMinutes())+':'
-		+ pad(d.getUTCSeconds())+'';
+		+ pad(d.getUTCSeconds());
 
 	return t;
 }
