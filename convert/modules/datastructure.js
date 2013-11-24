@@ -63,7 +63,7 @@ function validate(object, structure, debug) {
 				var key = substructure.key;
 				keys[key] = true;
 				if ((!substructure.optional) && (object[key] == undefined)) {
-					console.error('Es fehlt der Key "'+key+'". ('+debug+')');
+					console.error('In den Daten fehlt der Key "'+key+'". ('+debug+')');
 					return;
 				}
 				validate(object[key], substructure, debug+'.'+key);
