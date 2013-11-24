@@ -1,6 +1,18 @@
 var fs = require('fs');
 
-exports.generateTSV = function (filename, data, structure, filter) { 
+exports.generateJSON = function (filename, data, structure, filter) {
+	data = filterData(data, structure.data, filter).data;
+
+	fs.writeFileSync(filename, JSON.stringify(data), 'utf8');
+}
+
+exports.generateJSONPretty = function (filename, data, structure, filter) {
+	data = filterData(data, structure.data, filter).data;
+
+	fs.writeFileSync(filename, JSON.stringify(data, null, '\t'), 'utf8');
+}
+
+exports.generateTSV = function (filename, data, structure, filter) {
 	var filter = filterData(data, structure.data, filter);
 	var subdata = filter.data;
 	var substructure = filter.structure;
