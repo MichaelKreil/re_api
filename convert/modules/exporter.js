@@ -78,8 +78,7 @@ exports.generateTSV = function (filename, items, structure) {
 	fs.writeFileSync(filename, tsv.join('\n'), 'utf8');
 };
 
-
-exports.makeDocu = function (structure, filename, template) {
+exports.generateDocu = function (structure, filename, template) {
 	function getHTML(structure, suffix) {
 		var html = [];
 
@@ -167,7 +166,7 @@ exports.makeDocu = function (structure, filename, template) {
 	}
 
 	template = fs.readFileSync(template, 'utf8');
-	var html = getHTML(structure.structure, '');
+	var html = getHTML(structure.data, '');
 	html = template.replace(/#content#/, html);
 	fs.writeFileSync(filename, html, 'utf8')
 }

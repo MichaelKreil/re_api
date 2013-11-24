@@ -16,5 +16,5 @@ datastructure.check(data);
 
 //process.exit();
 
-exporter.makeDocu(datastructure, dstPath+'/documentation/data.html', srcPath+'/templates/documentation.html');
+exporter.generateDocu(datastructure, dstPath+'/documentation/data.html', srcPath+'/templates/documentation.html');
 
