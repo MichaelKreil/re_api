@@ -1,5 +1,5 @@
 {
-	"description":"das große Wurzel-Objekt",
+	"description":"Hauptdatenstruktur",
 	"type":"object",
 	"substructure": [
 		{

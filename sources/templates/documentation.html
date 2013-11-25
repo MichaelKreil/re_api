@@ -10,8 +10,6 @@
 			h3, p {
 				margin: 0px;
 			}
-			div {
-			}
 			.syntax {
 				font-family: Monaco, monospace;
 				font-weight: normal;
@@ -21,79 +19,48 @@
 				font-weight: bold;
 				color: #000;
 			}
-			.desc {
+			.comment {
 				color: #008;
 				opacity: 0.5;
-				margin-left: 20px;
-			}
-			.desc:hover {
-				opacity: 1.0;
-			}
-			/*
-			span.desc {
-				position: absolute;
-				left: 300px;
-			}
-			div.desc {
-				margin-left: 300px;
-			}*/
-			.desc {
+				width: 700px;
+				float: right;
+				clear: both;
 			}
 			.note {
 				font-size: 13px;
 			}
+			.subelement {
+				clear: both;
+				margin: 2px 0;
+			}
+			.subelement, .indent {
+				padding-top: 2px;
+				padding-bottom: 2px;
+			}
 			.indent {
 				margin-left: 20px;
-				position: relative;
 			}
-			/*
-			.fields {
+			.subelement {
+				padding-left: 2px;
 			}
-			.fields > li {
-				margin-bottom: 20px;
+			.subelement {
+				border-left: 2px solid transparent;
 			}
-			.fields .fields {
-				margin: 10px 0 10px 40px;
+			.subelement:hover {
+				border-left-color: rgb(250,250,200);
+				background:       rgba(250,250,200,0.2);
 			}
-			.note {
+			.subelement:hover .subelement:hover {
+				border-left-color: rgb(187,238,153);
+				background:       rgba(187,238,153,0.2);
+			}
+			.subelement:hover .subelement:hover .subelement:hover {
+				border-left-color: rgb(100,238,153);
+				background:       rgba(100,238,153,0.2);
+			}
+			.rest {
 				color: #888;
 			}
-			.values {
-				list-style-type: disc;
-			}
-			.values > li {
-				margin: 0;
-			}
-			.key {
-			}
-			.optional {
-				font-style: italic;
-				font-weight: normal;
-			}
-			.example_type {
-				position: relative;
-			}
-			.example_type:hover .example_list {
-				display: block;
-			}
-			.example_type_name {
-				text-decoration: underline;
-			}
-			.example_list {
-				background: #eee;
-				border: 1px solid #aaa;
-				padding: 10px;
-				max-width: 500px;
-				overflow: hidden;
-
-				display: none;
-				position: absolute;
-				z-index: 1000;
-			}
-			.example_list code {
-				display: block;
-				white-space: pre;
-			}*/
 		</style>
 	</head>
 	<body>

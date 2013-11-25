@@ -116,19 +116,24 @@ exports.generateDocu = function (structure, filename, template) {
 	function getHTML(structure, suffix) {
 		var html = [];
 
-		var desc = '<span class="desc">// ';
-		if (structure.optional) desc += ' (optional) ';
-		desc += structure.description + '</span>';
+		var comment = '<span class="comment">// ';
+		if (structure.optional) comment += ' (optional) ';
+		comment += structure.description + '</span>';
+
+		suffix = '<span class="rest">'+suffix+'</span>';
 
 		switch (structure.type) {
 			case 'object':
-				html.push('<span class="highlight">{</span> '+desc);
+				html.push('<span class="highlight">{</span>'+comment);
 
-				html.push('<div class="indent">');
+				html.push('<div class="indent hover">');
 
 				structure.substructure.forEach(function (substructure, index) {
-					html.push('<div class="subelement"><span class="highlight">'+substructure.key+':</span> ');
-					html.push(getHTML(substructure, (index < structure.substructure.length - 1) ? ',' : ''));
+					var subHTML = getHTML(substructure, (index < structure.substructure.length - 1) ? ',' : '');
+					var isLeaf = subHTML.indexOf('subelement') < 0;
+					html.push('<div class="subelement hover'+(isLeaf ? ' leaf' : '')+'"><span class="highlight">'+substructure.key+':</span> ');
+					html.push(subHTML);
+					html.push('<div style="clear:both"></div>');
 					html.push('</div>');
 				})
 
@@ -137,34 +142,34 @@ exports.generateDocu = function (structure, filename, template) {
 			break;
 
 			case 'array':
-				html.push('<span class="highlight">[</span> '+desc);
-				html.push('<div class="indent">');
+				html.push('<span class="highlight">[</span>'+comment);
+				html.push('<div class="indent hover">');
 
 				html.push(getHTML(structure.substructure, ''));
 				
-				html.push(', &hellip;');
+				html.push('<span class="rest">, &hellip;</span>');
 				html.push('</div>');
 				html.push('<span class="highlight">]</span>'+suffix);
 			break;
 
 			case 'string':
-				html.push('"String"'+suffix+' '+desc);
+				html.push('"String"'+suffix+comment);
 			break;
 
 			case 'url':
-				html.push('"URL"'+suffix+' '+desc);
+				html.push('"URL"'+suffix+comment);
 			break;
 
 			case 'datetime':
-				html.push('DateTime'+suffix+' '+desc);
+				html.push('DateTime'+suffix+comment);
 			break;
 
 			case 'integer':
-				html.push('Integer'+suffix+' '+desc);
+				html.push('Integer'+suffix+comment);
 			break;
 
 			case 'set':
-				html.push('Wert einer Liste'+suffix+' '+desc);
+				html.push('Wert einer Liste'+suffix+comment);
 
 				var values = structure.values.map(function (value, index) {
 					var separator = (index < structure.values.length-1) ? ', ' : '';
@@ -177,19 +182,19 @@ exports.generateDocu = function (structure, filename, template) {
 				values.unshift('mögliche Werte sind: [');
 				values.push(']');
 
-				var result = [];
+				var comment = [];
 				var temp = '';
 				values.forEach(function (chunk) {
 					if (temp.length + chunk.length > 80) {
-						result.push(temp);
+						comment.push(temp);
 						temp = '';
 					}
 					temp += chunk;
 				});
-				result.push(temp);
-				result = '// '+result.join('<br>// ');
+				comment.push(temp);
+				comment = '// '+comment.join('<br>// ');
 
-				html.push('<div class="desc">'+result+'</div>');
+				html.push('<div class="comment">'+comment+'</div>');
 			break;
 
 			default:

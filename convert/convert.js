@@ -28,5 +28,5 @@ exporter.generateJSONPretty(dstPath+'/data/rp13/locations.pretty.json', data, da
 
 //process.exit();
 
-exporter.generateDocu(datastructure, dstPath+'/documentation/data.html', srcPath+'/templates/documentation.html');
+exporter.generateDocu(datastructure, dstPath+'/documentation/index.html', srcPath+'/templates/documentation.html');
 
