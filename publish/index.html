@@ -3,15 +3,78 @@
 		<style type="text/css">
 			body, h3 {
 				font-family: Helvetica, Verdana;
-				font-size: 14px;
+				font-size: 16px;
 				color: #000;
 				line-height: 140%;
+			}
+			h1 {
+				margin: 80px 0px 20px 0px;
+			}
+			p {
+				margin: 20px 0px;
+			}
+			li {
+				margin: 10px 0px;
+			}
+			a {
+				color: #008;
+			}
+			td, th {
+				padding: 3px
+			}
+			td {
+				text-align: right;
+			}
+			#content {
+				width:800px;
+				margin:auto;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="syntax">
-		<span class="highlight">{</span> <span class="desc">// das große Wurzel-Objekt</span><div class="indent"><div class="subelement"><span class="highlight">sessions:</span> <span class="highlight">[</span> <span class="desc">// Auflistung der Sessions</span><div class="indent"><span class="highlight">{</span> <span class="desc">// Jede Session ist ein Objekt.</span><div class="indent"><div class="subelement"><span class="highlight">lastmodified:</span> DateTime, <span class="desc">// Wann wurde der Eintrag das letzte Mal geändert?</span></div><div class="subelement"><span class="highlight">id:</span> "String", <span class="desc">// Eindeutige ID der Session</span></div><div class="subelement"><span class="highlight">title:</span> "String", <span class="desc">// Titel der Session</span></div><div class="subelement"><span class="highlight">abstract:</span> "String", <span class="desc">// Beschreibung der Session</span></div><div class="subelement"><span class="highlight">speakers:</span> <span class="highlight">[</span> <span class="desc">// Auflistung der Speaker</span><div class="indent"><span class="highlight">{</span> <span class="desc">// Jeder Speaker wird als Objekt gespeichert.</span><div class="indent"><div class="subelement"><span class="highlight">name:</span> "String", <span class="desc">// Name der/des Speakerin/Speakers</span></div><div class="subelement"><span class="highlight">id:</span> "String", <span class="desc">// Eindeutige ID der/des Speakerin/Speakers</span></div><div class="subelement"><span class="highlight">url:</span> "URL" <span class="desc">//  (optional) URL der/des Speakerin/Speakers auf der re:publica-Seite</span></div></div><span class="highlight">}</span>, &hellip;</div><span class="highlight">]</span>,</div><div class="subelement"><span class="highlight">location:</span> <span class="highlight">{</span> <span class="desc">// Ort der Session, z.B. welche Stage</span><div class="indent"><div class="subelement"><span class="highlight">name:</span> "String", <span class="desc">// Titel der Stage</span></div><div class="subelement"><span class="highlight">id:</span> "String" <span class="desc">// Eindeutige ID der Stage</span></div></div><span class="highlight">},</span></div><div class="subelement"><span class="highlight">day:</span> Wert einer Liste, <span class="desc">// Tag der Session</span><div class="desc">// mögliche Werte sind: [1, 2, 3]</div></div><div class="subelement"><span class="highlight">date:</span> DateTime, <span class="desc">// Tag der Session</span></div><div class="subelement"><span class="highlight">start:</span> DateTime, <span class="desc">// Startzeit der Session</span></div><div class="subelement"><span class="highlight">end:</span> DateTime, <span class="desc">// Ende der Session</span></div><div class="subelement"><span class="highlight">duration:</span> Integer, <span class="desc">// Dauer der Session in Minuten</span></div><div class="subelement"><span class="highlight">language:</span> Wert einer Liste, <span class="desc">// Sprache der Session</span><div class="desc">// mögliche Werte sind: ["English", "German"]</div></div><div class="subelement"><span class="highlight">experiencelevel:</span> Wert einer Liste, <span class="desc">// Schwierigskeitslevel</span><div class="desc">// mögliche Werte sind: ["Beginner", "Fortgeschrittene", "Experten"]</div></div><div class="subelement"><span class="highlight">track:</span> Wert einer Liste, <span class="desc">// Track</span><div class="desc">// mögliche Werte sind: ["re:publica", "politics & society", <br>// "research & education", "science & technology", "business & innovation", <br>// "culture", "media", "re:campaign"]</div></div><div class="subelement"><span class="highlight">type:</span> Wert einer Liste, <span class="desc">// Art der Veranstaltung</span><div class="desc">// mögliche Werte sind: ["Vortrag", "Diskussion", "Aktion", "Workshop"]</div></div><div class="subelement"><span class="highlight">url:</span> "URL", <span class="desc">//  (optional) URL der Session auf der re:publica-Seite</span></div><div class="subelement"><span class="highlight">slides:</span> <span class="highlight">{</span> <span class="desc">//  (optional) Folien zum Vortrag</span><div class="indent"><div class="subelement"><span class="highlight">pdflink:</span> "URL", <span class="desc">//  (optional) URL zu einem PDF der Vortragsfolien</span></div><div class="subelement"><span class="highlight">pptlink:</span> "URL", <span class="desc">//  (optional) URL zu einer Powerpoint-Datei der Vortragsfolien</span></div><div class="subelement"><span class="highlight">keylink:</span> "URL", <span class="desc">//  (optional) URL zu einer Keynote-Datei der Vortragsfolien</span></div><div class="subelement"><span class="highlight">slideshare:</span> "URL" <span class="desc">//  (optional) URL zu einer SlideShare-Präsentation der Vortragsfolien</span></div></div><span class="highlight">},</span></div><div class="subelement"><span class="highlight">recordings:</span> <span class="highlight">{</span> <span class="desc">//  (optional) Aufzeichnung der Veranstaltung</span><div class="indent"><div class="subelement"><span class="highlight">youtube:</span> "URL", <span class="desc">//  (optional) URL zum YouTube-Video</span></div><div class="subelement"><span class="highlight">vimeo:</span> "URL", <span class="desc">//  (optional) URL zum Vimeo-Video</span></div><div class="subelement"><span class="highlight">oggtheora:</span> "URL", <span class="desc">//  (optional) URL zu einer Ogg-Theora-Video-Datei</span></div><div class="subelement"><span class="highlight">mpeg4video:</span> "URL", <span class="desc">//  (optional) URL zu einer MPEG4-Video-Datei</span></div><div class="subelement"><span class="highlight">oggvorbis:</span> "URL", <span class="desc">//  (optional) URL zu einer Ogg-Vorbis-Audio-Datei</span></div><div class="subelement"><span class="highlight">mpeg4audio:</span> "URL", <span class="desc">//  (optional) URL zu einer MPEG4-Audio-Datei</span></div><div class="subelement"><span class="highlight">mp3audio:</span> "URL" <span class="desc">//  (optional) URL zu einer MP3-Audio-Datei</span></div></div><span class="highlight">}</span></div></div><span class="highlight">}</span>, &hellip;</div><span class="highlight">]</span>,</div><div class="subelement"><span class="highlight">speakers:</span> <span class="highlight">[</span> <span class="desc">// Auflistung aller Speaker</span><div class="indent"><span class="highlight">{</span> <span class="desc">// Definition eines Speakers</span><div class="indent"><div class="subelement"><span class="highlight">name:</span> "String", <span class="desc">// Name der/des Speakerin/Speakers</span></div><div class="subelement"><span class="highlight">id:</span> "String", <span class="desc">// Eindeutige ID der/des Speakerin/Speakers.</span></div><div class="subelement"><span class="highlight">url:</span> "URL", <span class="desc">//  (optional) URL der/des Speakerin/Speakers auf der re:publica-Seite.</span></div><div class="subelement"><span class="highlight">picture:</span> "URL", <span class="desc">//  (optional) URL zu einem Bild, z.B. Avatar oder Portraitfoto</span></div><div class="subelement"><span class="highlight">biography:</span> "String", <span class="desc">//  (optional) Kurzer Selbstbeschreibungstext</span></div><div class="subelement"><span class="highlight">organization:</span> "String", <span class="desc">//  (optional) Name der Firma/Organisation</span></div><div class="subelement"><span class="highlight">position:</span> "String" <span class="desc">//  (optional) Position innerhalb der Firma/Organisation</span></div></div><span class="highlight">}</span>, &hellip;</div><span class="highlight">]</span>,</div><div class="subelement"><span class="highlight">locations:</span> <span class="highlight">[</span> <span class="desc">// Auflistung aller Locations</span><div class="indent"><span class="highlight">{</span> <span class="desc">// Definition einer Location</span><div class="indent"><div class="subelement"><span class="highlight">name:</span> "String", <span class="desc">// Name der Location (z.B. "stage1")</span></div><div class="subelement"><span class="highlight">id:</span> "String", <span class="desc">// ID der Location</span></div><div class="subelement"><span class="highlight">sessions:</span> <span class="highlight">[</span> <span class="desc">// Liste aller Sessions, die in dieser Location stattfinden.</span><div class="indent"><span class="highlight">{</span> <span class="desc">// Rudimentäre Informationen der Session</span><div class="indent"><div class="subelement"><span class="highlight">id:</span> "String", <span class="desc">// ID der Session</span></div><div class="subelement"><span class="highlight">title:</span> "String", <span class="desc">// Titel der Session</span></div><div class="subelement"><span class="highlight">start:</span> DateTime, <span class="desc">// Startzeit der Session</span></div><div class="subelement"><span class="highlight">end:</span> DateTime <span class="desc">// Ende der Session</span></div></div><span class="highlight">}</span>, &hellip;</div><span class="highlight">]</span></div></div><span class="highlight">}</span>, &hellip;</div><span class="highlight">]</span></div></div><span class="highlight">}</span>
+		<div id="content">
+			<h1>Was ist die re:api?</h1>
+			<p>Im Laufe der letzten Jahre ist um die re:publica ein Ökosystem aus mobilen Apps und Webanwendungen entstanden. Um dieses Ökosystem zu unterstützen, wollen wir unter dem Arbeitstitel "re:api" eine feste Schnittstelle anbieten, über die alle Anwendungen einfach, zentral und standardisiert alle relevanten Daten abrufen können.</p>
+			<p>Aktuelle planen wir folgende Schritte:</p>
+			<ol>
+				<li>Veröffentlichung einer Datenstruktur, um Sessions (Vorträge), Speakers (Redner_innen) und Locations (Räume) zu beschreiben. Dazu kommt an alle Entwickler die Bitte um Verbesserungsvorschläge.</li>
+				<li>Veröffentlichung der Daten der vergangenen re:publica 2013 zu Testzwecken, damit alle interessierten Entwickler ihre Apps darauf vorbereiten können.</li>
+				<li>Sobald der Sessionplan der re:publica 2014 feststeht, wird dieser auch in der definierten Datenstruktur veröffentlicht, so dass alle Apps einfach auf die neuen Daten umstellen können.</li>
+				<li>In den kommenden Jahren wollen wir die Daten schrittweise erweitern. Besonders gerne wollen wir die Möglichkeit geben, dass re:publica-Gäste per Opt-in auch ihre Daten hinterlegen können. Also z.B. Name, Twitter-Account, welche Vorträge man besuchen möchte, welche Vorträge besonders gut gefallen haben, etc.</li>
+			</ol>
+
+			<h1>Wie sieht die Datenstruktur aus?</h1>
+			<p>Der aktuelle Stand lässt sich am besten der <a href="documentation/index.html">Kurzdokumentation</a> entnehmen.</p>
+			<p>Verbesserungsvorschläge bitte in die NICHT VORHANDENE (ToDo) Kommentarsektion werfen.</p>
+
+			<h1>Welche Daten sind bereits veröffentlicht?</h1>
+			<table style="margin: 50px auto 50px auto">
+				<tr><th>Bereich</th><th>TSV</th><th>JSON</th><th>pretty JSON</th></tr>
+				<tr>
+					<th>Alles</th>
+					<td></td>
+					<td><a href="data/rp13/all.json">all.json</a></td>
+					<td><a href="data/rp13/all.pretty.json">all.pretty.json</a></td>
+				</tr>
+				<tr>
+					<th>Sessions</th>
+					<td><a href="data/rp13/sessions.tsv">sessions.tsv</a></td>
+					<td><a href="data/rp13/sessions.json">sessions.json</a></td>
+					<td><a href="data/rp13/sessions.pretty.json">sessions.pretty.json</a></td>
+				</tr>
+				<tr>
+					<th>Speakers</th>
+					<td><a href="data/rp13/speakers.tsv">speakers.tsv</a></td>
+					<td><a href="data/rp13/speakers.json">speakers.json</a></td>
+					<td><a href="data/rp13/speakers.pretty.json">speakers.pretty.json</a></td>
+				</tr>
+				<tr>
+					<th>Locations</th>
+					<td><a href="data/rp13/locations.tsv">locations.tsv</a></td>
+					<td><a href="data/rp13/locations.json">locations.json</a></td>
+					<td><a href="data/rp13/locations.pretty.json">locations.pretty.json</a></td>
+				</tr>
+			</table>
 		</div>
 	</body>
 </html>
